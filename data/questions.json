@@ -1,0 +1,351 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Which three characteristics does data quality aim to ensure?",
+    "expected_answer": "Data should be accurate, complete, and consistent.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 53,
+        "evidence": "Data quality ensures that data are accurate, complete, and consistent."
+      },
+      {
+        "source_id": "foundations-information-systems",
+        "page": 105,
+        "evidence": "Ensuring data quality is the final step and involves making sure the data are accurate, consistent, complete, and timely."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which data management technique allows analysis where the data reside instead of moving them into a central repository?",
+    "expected_answer": "Federated analytics.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 54,
+        "evidence": "Another technology is federated analytics. Federated analytics allows users to analyze data without having to move it to a central repository."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "According to Chapter 3 (Database Management Systems), which ACID property ensures that a completed transaction remains saved even if the system crashes?",
+    "expected_answer": "Durability.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 95,
+        "evidence": "guarantees that once a transaction is complete, it stays saved even if the system crashes (durability)."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What is data retention, and what activities does it include?",
+    "expected_answer": "Storing data for a defined period based on legal, regulatory, and business requirements; activities include archiving, purging, and developing data retention policies.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 53,
+        "evidence": "Data retention involves storing data for a defined period based on legal, regulatory, and business requirements. It includes activities like archiving, purging, and the development of data retention policies."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "According to Chapter 2, how do DAMA-DMBOK and MIKE2.0 differ in their focus?",
+    "expected_answer": "DAMA-DMBOK focuses on technical aspects of data management; MIKE2.0 focuses on business aspects of information management.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 55,
+        "evidence": "DAMA-DMBOK focuses on the technical aspects of data management, while MIKE2.0 focuses on the business aspects of information management."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which of the four Vs of big data concerns how reliable, accurate, and trustworthy the data are?",
+    "expected_answer": "Veracity.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 56,
+        "evidence": "Veracity: The veracity dimension refers to the reliability, accuracy, and trustworthiness of the data, considering factors like data quality and consistency."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What does information system planning and management involve selecting and implementing?",
+    "expected_answer": "The right technology infrastructure for data storage, processing, analysis, and governance.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 58,
+        "evidence": "Information system planning and management involve selecting and implementing the right technology infrastructure for data storage, processing, analysis, and governance."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "If a decision is unique and complex and has no predefined guidelines, which type of decision is it in Simon's framework?",
+    "expected_answer": "A nonprogrammed decision, requiring judgment, analysis, and creativity.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 59,
+        "evidence": "Nonprogrammed decisions, on the other hand, are not structured as they are unique and complex, requiring judgment, analysis, and creativity. These decisions often arise when there are no predefined guidelines or precedents available."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What does an e-commerce business model involve?",
+    "expected_answer": "Buying and selling goods or services online through websites or apps.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 68,
+        "evidence": "The e-commerce model involves buying and selling goods or services online through websites or apps, and offers convenient shopping experience for various customer segments."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What is a mobile database, and why must it be lightweight?",
+    "expected_answer": "A database used on mobile devices to store and access data; it must save storage and power and work efficiently with limited device resources.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 92,
+        "evidence": "A mobile database is a database used on mobile devices, such as a smartphone or tablet, to store and access data. It must be lightweight to save storage, use less power, and work efficiently on limited mobile device resources."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Which database constraint can ensure that ages are positive or that a status field contains only predefined values?",
+    "expected_answer": "A check constraint.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 99,
+        "evidence": "A check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Which principle limits a user's permissions to only what is necessary for their specific tasks?",
+    "expected_answer": "The principle of least privilege.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 105,
+        "evidence": "the principle of least privilege, which is giving a user, system, or process only the minimum access or permissions needed to perform their specific tasks."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Which recommended SQL injection defense treats user inputs as data rather than code?",
+    "expected_answer": "Parameterized queries.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 106,
+        "evidence": "Parameterized queries treat user inputs as data, not code, which allows for blocking of harmful code."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In which formats do document-oriented databases usually store documents?",
+    "expected_answer": "JSON, BSON (binary JSON), or XML.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 108,
+        "evidence": "Document-oriented databases store data in the form of documents, usually using formats like JSON, BSON (binary JSON), or XML."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Which lightweight embedded database system is named as a common choice for local storage in mobile applications?",
+    "expected_answer": "SQLite.",
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 115,
+        "evidence": "Most commonly, lightweight embedded database systems such as SQLite are used to store data locally."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "test-new-01",
+    "split": "test",
+    "question": "Which database type integrates multiple sources and is optimized for analysis and reporting rather than transactions?",
+    "expected_answer": "A data warehouse.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 95,
+        "evidence": "• A data warehouse integrates data from various sources and stores it in a combined manner (Amazon Redshift is an example). It is a specialized database optimized for analysis and reporting rather than transaction processing. A data warehouse is designed to perform complex queries and data analysis quickly and efficiently."
+      }
+    ]
+  },
+  {
+    "id": "test-new-02",
+    "split": "test",
+    "question": "Which index represents values with zeros and ones and is useful for columns with few distinct values?",
+    "expected_answer": "A bitmap index.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 96,
+        "evidence": "A bitmap index uses 0s and 1s to show where a value is in a database. It’s great for columns with only a few options, like “Yes/No” or “Rent/Own/Neither,” and facilitates quick searching. Bitmap indexes are efficient for columns with a limited number of distinct values and are often used in data warehouses for complex queries on large datasets. Full-text indexes organize words in text fields to make it easier and faster to search for specific words or phrases."
+      }
+    ]
+  },
+  {
+    "id": "test-new-03",
+    "split": "test",
+    "question": "Which constraint ensures a foreign key matches a primary key in another table and prevents orphaned records?",
+    "expected_answer": "A referential constraint.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 99,
+        "evidence": "Constraints are rules applied to database tables to ensure data integrity and reliability (for example, entity constraints that ensure each table has a primary key). A referential constraint maintains relationships between tables, making sure that a foreign key in one table matches a primary key in another table. This ensures that the relationships between records are consistent and eliminates any orphaned record, or a record that references another record that no longer exists."
+      }
+    ]
+  },
+  {
+    "id": "test-new-04",
+    "split": "test",
+    "question": "What does first normal form require for values in each column?",
+    "expected_answer": "Atomic, indivisible values; each column has single, simple values.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 100,
+        "evidence": "1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3."
+      }
+    ]
+  },
+  {
+    "id": "test-new-05",
+    "split": "test",
+    "question": "During database design, which stage selects data types, indexing strategies and storage planning?",
+    "expected_answer": "Physical design.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "foundations-information-systems",
+        "page": 100,
+        "evidence": "These keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:"
+      }
+    ]
+  },
+  {
+    "id": "dev-absent-1",
+    "split": "dev",
+    "question": "What exact dollar price did OpenStax pay for its production database hosting in November 2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The selected textbook pages contain no OpenStax 2026 hosting invoice.",
+    "absence_check": {
+      "scope": "All 463 indexed chunks, not the complete 497-page book",
+      "terms": {
+        "November 2026": 0,
+        "hosting invoice": 0
+      },
+      "method": "Corpus-wide exact-term checks plus semantic scope inspection; counts alone are not proof."
+    }
+  },
+  {
+    "id": "dev-absent-2",
+    "split": "dev",
+    "question": "What is the exact SQL password of the database administrator in the textbook examples?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No actual administrator credential is disclosed in the indexed textbook.",
+    "absence_check": {
+      "scope": "All 463 indexed chunks, not the complete 497-page book",
+      "terms": {
+        "administrator password": 0,
+        "admin password": 0
+      },
+      "method": "Corpus-wide exact-term checks plus semantic scope inspection; counts alone are not proof."
+    }
+  },
+  {
+    "id": "test-absent-3",
+    "split": "test",
+    "question": "What was the exact measured database outage duration at OpenStax on 15 November 2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No dated OpenStax production incident report is included.",
+    "absence_check": {
+      "scope": "All 463 indexed chunks, not the complete 497-page book",
+      "terms": {
+        "15 November 2026": 0,
+        "outage duration": 0
+      },
+      "method": "Corpus-wide exact-term checks plus semantic scope inspection; counts alone are not proof."
+    }
+  },
+  {
+    "id": "test-absent-4",
+    "split": "test",
+    "question": "What exact pgvector version and Docker container ID were used by the author of this textbook?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The corpus does not document the textbook author deployment identifiers.",
+    "absence_check": {
+      "scope": "All 463 indexed chunks, not the complete 497-page book",
+      "terms": {
+        "pgvector": 0,
+        "container ID": 0
+      },
+      "method": "Corpus-wide exact-term checks plus semantic scope inspection; counts alone are not proof."
+    }
+  }
+]

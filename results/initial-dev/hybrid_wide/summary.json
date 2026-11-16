@@ -1,0 +1,47 @@
+{
+  "retrieval": {
+    "hit_at_1": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8
+    },
+    "hit_at_3": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8666666666666667
+    },
+    "context_evidence_rate": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    }
+  },
+  "cases": 17,
+  "errors": 0,
+  "ranking_errors": 0,
+  "total_seconds": 45.35673559992574,
+  "search_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "prompt_tokens": 20717,
+  "completion_tokens": 2140,
+  "agent_embedding_tokens": 21,
+  "cost_usd": null,
+  "cost_note": "Token counts, not a monetary estimate; embedding cache reused across runs."
+}

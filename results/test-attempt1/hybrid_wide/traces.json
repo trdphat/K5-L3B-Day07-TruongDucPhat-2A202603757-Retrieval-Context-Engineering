@@ -1,0 +1,2465 @@
+[
+  {
+    "query_id": "test-new-01",
+    "question": "Which database type integrates multiple sources and is optimized for analysis and reporting rather than transactions?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 95,
+        "text": "• A data warehouse integrates data from various sources and stores it in a combined manner (Amazon Redshift is an example). It is a specialized database optimized for analysis and reporting rather than transaction processing. A data warehouse is designed to perform complex queries and data analysis quickly and efficiently.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:95",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 85,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "85285ad7d54ced525194196a0ebc91a4fd2d88fdb2506df95d8aa3da895c9443",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 56,
+        "text": "• Used for data warehousing, business intelligence, and analysis-oriented applications, analytic data include aggregated and summarized data from various sources and enable in-depth analysis, reporting, and decision support. Analytic data require data integration, transformation, and optimization to provide a consolidated view and support complex analytics.",
+        "metadata": {
+          "chapter": 2,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:56",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 46,
+          "chapter_title": "Data Management and Information Systems Business Strategies",
+          "extraction_status": "ok"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "925ee14e885f0a997579e8db4aa1431b91eea598a5142e4f4a7a9cc36e3be6d6",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 78,
+        "text": "These data are then stored in a database for further analysis, reporting, and decision-making.",
+        "metadata": {
+          "chapter": 2,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:78",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 68,
+          "chapter_title": "Data Management and Information Systems Business Strategies",
+          "extraction_status": "ok"
+        },
+        "score": 0.031754032258064516,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 4,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "8b11c3c1c416130d3602aa643d6285da490546d7228277ee0cedd7ee642ea67d",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "86 3 • Database Management Systems\n\nextract needed data quickly and efficiently. The purpose of data retrieval is to access information for analysis, reporting, or decision-making, making it an essential aspect of effective data management. A technique used to improve the speed of data retrieval operations in a database is indexing. By creating an index, a database can quickly locate and access data without having to scan the entire table.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.029236022193768675,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 11,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "3bd6e1591e1427361f7e9fcc310947501c4776f0571465ef5c6962e6d1ee6c20",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 108,
+        "text": "A NoSQL database management system is a type of database that provides a mechanism for storing and retrieving data that is not based on the traditional relational database model. They are built to handle large amounts of data, high-speed data processing, and diverse data types. They offer scalability, flexibility, and performance, making them ideal for modern applications that manage big data and real-time web applications.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:108",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 98,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.028814262023217248,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 12,
+          "tfidf": 7
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 1276.9690999994054,
+    "ranking_embedding_tokens": 17,
+    "status": "answered",
+    "answer": "A data warehouse is the database type that integrates multiple sources and is optimized for analysis and reporting rather than transactions. It consolidates data from various sources and is designed to perform complex queries and data analysis efficiently. [3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611]",
+    "citations": [
+      "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611"
+    ],
+    "citation_rendered": true,
+    "citation_normalized": false,
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "database type integrates multiple sources optimized for analysis and reporting"
+        },
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 243,
+          "total_tokens": 265,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "database type integrates multiple sources optimized for analysis and reporting",
+        "filter": null,
+        "results": [
+          {
+            "id": "85285ad7d54ced525194196a0ebc91a4fd2d88fdb2506df95d8aa3da895c9443",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 56,
+            "text": "• Used for data warehousing, business intelligence, and analysis-oriented applications, analytic data include aggregated and summarized data from various sources and enable in-depth analysis, reporting, and decision support. Analytic data require data integration, transformation, and optimization to provide a consolidated view and support complex analytics.",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:56",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 46,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 95,
+            "text": "• A data warehouse integrates data from various sources and stores it in a combined manner (Amazon Redshift is an example). It is a specialized database optimized for analysis and reporting rather than transaction processing. A data warehouse is designed to perform complex queries and data analysis quickly and efficiently.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:95",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 85,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 5,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "925ee14e885f0a997579e8db4aa1431b91eea598a5142e4f4a7a9cc36e3be6d6",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 78,
+            "text": "These data are then stored in a database for further analysis, reporting, and decision-making.",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:78",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 68,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 4,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "1b3fdb5a6009452ff616754b5f49716235206af514deb6ddfee06076cb64ba8f",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 110,
+            "text": "100 3 • Database Management Systems\n\norganized to prepare the data for analysis, ensuring data quality and usability. During the data analysis phase, data are examined by stakeholders to extract useful insights that inform decision-making, revealing patterns, trends, and correlations valuable for strategic planning. Finally, data are either archived for future reference or deleted if no longer needed, maintaining a clean and efficient database environment.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:110",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 100,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03036576949620428,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 3,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "8b11c3c1c416130d3602aa643d6285da490546d7228277ee0cedd7ee642ea67d",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "86 3 • Database Management Systems\n\nextract needed data quickly and efficiently. The purpose of data retrieval is to access information for analysis, reporting, or decision-making, making it an essential aspect of effective data management. A technique used to improve the speed of data retrieval operations in a database is indexing. By creating an index, a database can quickly locate and access data without having to scan the entire table.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.029418126757516764,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 9,
+              "tfidf": 7
+            }
+          }
+        ],
+        "context": "[85285ad7d54ced525194196a0ebc91a4fd2d88fdb2506df95d8aa3da895c9443 | data/Foundations_of_Information_Systems.pdf | page 56]\n• Used for data warehousing, business intelligence, and analysis-oriented applications, analytic data include aggregated and summarized data from various sources and enable in-depth analysis, reporting, and decision support. Analytic data require data integration, transformation, and optimization to provide a consolidated view and support complex analytics.\n\n[3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611 | data/Foundations_of_Information_Systems.pdf | page 95]\n• A data warehouse integrates data from various sources and stores it in a combined manner (Amazon Redshift is an example). It is a specialized database optimized for analysis and reporting rather than transaction processing. A data warehouse is designed to perform complex queries and data analysis quickly and efficiently.\n\n[925ee14e885f0a997579e8db4aa1431b91eea598a5142e4f4a7a9cc36e3be6d6 | data/Foundations_of_Information_Systems.pdf | page 78]\nThese data are then stored in a database for further analysis, reporting, and decision-making.\n\n[1b3fdb5a6009452ff616754b5f49716235206af514deb6ddfee06076cb64ba8f | data/Foundations_of_Information_Systems.pdf | page 110]\n100 3 • Database Management Systems\n\norganized to prepare the data for analysis, ensuring data quality and usability. During the data analysis phase, data are examined by stakeholders to extract useful insights that inform decision-making, revealing patterns, trends, and correlations valuable for strategic planning. Finally, data are either archived for future reference or deleted if no longer needed, maintaining a clean and efficient database environment.\n\n[8b11c3c1c416130d3602aa643d6285da490546d7228277ee0cedd7ee642ea67d | data/Foundations_of_Information_Systems.pdf | page 96]\n86 3 • Database Management Systems\n\nextract needed data quickly and efficiently. The purpose of data retrieval is to access information for analysis, reporting, or decision-making, making it an essential aspect of effective data management. A technique used to improve the speed of data retrieval operations in a database is indexing. By creating an index, a database can quickly locate and access data without having to scan the entire table.",
+        "context_ids": [
+          "85285ad7d54ced525194196a0ebc91a4fd2d88fdb2506df95d8aa3da895c9443",
+          "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611",
+          "925ee14e885f0a997579e8db4aa1431b91eea598a5142e4f4a7a9cc36e3be6d6",
+          "1b3fdb5a6009452ff616754b5f49716235206af514deb6ddfee06076cb64ba8f",
+          "8b11c3c1c416130d3602aa643d6285da490546d7228277ee0cedd7ee642ea67d"
+        ],
+        "elapsed_ms": 417.4856999889016
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "A data warehouse is the database type that integrates multiple sources and is optimized for analysis and reporting rather than transactions. It consolidates data from various sources and is designed to perform complex queries and data analysis efficiently.",
+          "citations": [
+            "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611"
+          ]
+        },
+        "usage": {
+          "completion_tokens": 100,
+          "prompt_tokens": 886,
+          "total_tokens": 986,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[85285ad7d54ced525194196a0ebc91a4fd2d88fdb2506df95d8aa3da895c9443 | data/Foundations_of_Information_Systems.pdf | page 56]\n• Used for data warehousing, business intelligence, and analysis-oriented applications, analytic data include aggregated and summarized data from various sources and enable in-depth analysis, reporting, and decision support. Analytic data require data integration, transformation, and optimization to provide a consolidated view and support complex analytics.\n\n[3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611 | data/Foundations_of_Information_Systems.pdf | page 95]\n• A data warehouse integrates data from various sources and stores it in a combined manner (Amazon Redshift is an example). It is a specialized database optimized for analysis and reporting rather than transaction processing. A data warehouse is designed to perform complex queries and data analysis quickly and efficiently.\n\n[925ee14e885f0a997579e8db4aa1431b91eea598a5142e4f4a7a9cc36e3be6d6 | data/Foundations_of_Information_Systems.pdf | page 78]\nThese data are then stored in a database for further analysis, reporting, and decision-making.\n\n[1b3fdb5a6009452ff616754b5f49716235206af514deb6ddfee06076cb64ba8f | data/Foundations_of_Information_Systems.pdf | page 110]\n100 3 • Database Management Systems\n\norganized to prepare the data for analysis, ensuring data quality and usability. During the data analysis phase, data are examined by stakeholders to extract useful insights that inform decision-making, revealing patterns, trends, and correlations valuable for strategic planning. Finally, data are either archived for future reference or deleted if no longer needed, maintaining a clean and efficient database environment.\n\n[8b11c3c1c416130d3602aa643d6285da490546d7228277ee0cedd7ee642ea67d | data/Foundations_of_Information_Systems.pdf | page 96]\n86 3 • Database Management Systems\n\nextract needed data quickly and efficiently. The purpose of data retrieval is to access information for analysis, reporting, or decision-making, making it an essential aspect of effective data management. A technique used to improve the speed of data retrieval operations in a database is indexing. By creating an index, a database can quickly locate and access data without having to scan the entire table.",
+    "context_ids": [
+      "85285ad7d54ced525194196a0ebc91a4fd2d88fdb2506df95d8aa3da895c9443",
+      "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611",
+      "925ee14e885f0a997579e8db4aa1431b91eea598a5142e4f4a7a9cc36e3be6d6",
+      "1b3fdb5a6009452ff616754b5f49716235206af514deb6ddfee06076cb64ba8f",
+      "8b11c3c1c416130d3602aa643d6285da490546d7228277ee0cedd7ee642ea67d"
+    ],
+    "elapsed_seconds": 3.6679140999913216,
+    "usage": {
+      "prompt_tokens": 1129,
+      "completion_tokens": 122,
+      "model_calls": 2
+    },
+    "embedding_tokens": 10,
+    "embedding_requests": 1,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  },
+  {
+    "query_id": "test-new-02",
+    "question": "Which index represents values with zeros and ones and is useful for columns with few distinct values?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "A bitmap index uses 0s and 1s to show where a value is in a database. It’s great for columns with only a few options, like “Yes/No” or “Rent/Own/Neither,” and facilitates quick searching. Bitmap indexes are efficient for columns with a limited number of distinct values and are often used in data warehouses for complex queries on large datasets. Full-text indexes organize words in text fields to make it easier and faster to search for specific words or phrases.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03125763125763126,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "daae2b1a04ea3434a76081420aff9c57448dcba201ea62c74ec2f6d77cf76147",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "But it’s not as good for tasks like “Find all customers with IDs between 2000 and 2200,” since hash indexes do not keep data in order, making range searches slower.\n\nNumber First Name Last Name Country\n\n342678 Chris Assam USA\n\n675309 Taylor Tan Australia\n\n649568 Anthony Ray Mexico\n\nTable 3.2 Customer Data in a Hash Index Hash indexing can map values to locations in tables but are inefficient when looking up range values.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030330882352941176,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 8,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "dda91c2b90a64ec38b693b95b04f1437f7e3bc8f588f46a0e07c630814a48e66",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "The most common type of index is the B-tree index, which maintains a balanced tree structure (a tree structure where all branches are kept roughly the same height), providing efficient insertion, deletion, and lookup operations.\n\nLINK TO LEARNING\n\nLearn more about how a B-tree index (https://openstax.org/r/109BTreeIndex) provides sorted data and allows for efficient searching and access, plus variations in types of B-tree indexes.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030158730158730156,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 10
+        }
+      },
+      {
+        "id": "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "Another type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.02964254577157803,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 14
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 492.6640000194311,
+    "ranking_embedding_tokens": 18,
+    "status": "answered",
+    "answer": "The bitmap index represents values with zeros and ones and is useful for columns with few distinct values, such as \"Yes/No\" or \"Rent/Own/Neither.\" [5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f]",
+    "citations": [
+      "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f"
+    ],
+    "citation_rendered": true,
+    "citation_normalized": false,
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "index with zeros and ones useful for columns with few distinct values"
+        },
+        "usage": {
+          "completion_tokens": 24,
+          "prompt_tokens": 244,
+          "total_tokens": 268,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "index with zeros and ones useful for columns with few distinct values",
+        "filter": null,
+        "results": [
+          {
+            "id": "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "A bitmap index uses 0s and 1s to show where a value is in a database. It’s great for columns with only a few options, like “Yes/No” or “Rent/Own/Neither,” and facilitates quick searching. Bitmap indexes are efficient for columns with a limited number of distinct values and are often used in data warehouses for complex queries on large datasets. Full-text indexes organize words in text fields to make it easier and faster to search for specific words or phrases.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "Another type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030834914611005692,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 2,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "dda91c2b90a64ec38b693b95b04f1437f7e3bc8f588f46a0e07c630814a48e66",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "The most common type of index is the B-tree index, which maintains a balanced tree structure (a tree structure where all branches are kept roughly the same height), providing efficient insertion, deletion, and lookup operations.\n\nLINK TO LEARNING\n\nLearn more about how a B-tree index (https://openstax.org/r/109BTreeIndex) provides sorted data and allows for efficient searching and access, plus variations in types of B-tree indexes.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030776515151515152,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 4,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "daae2b1a04ea3434a76081420aff9c57448dcba201ea62c74ec2f6d77cf76147",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "But it’s not as good for tasks like “Find all customers with IDs between 2000 and 2200,” since hash indexes do not keep data in order, making range searches slower.\n\nNumber First Name Last Name Country\n\n342678 Chris Assam USA\n\n675309 Taylor Tan Australia\n\n649568 Anthony Ray Mexico\n\nTable 3.2 Customer Data in a Hash Index Hash indexing can map values to locations in tables but are inefficient when looking up range values.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03055037313432836,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 7,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 100,
+            "text": "1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:100",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 90,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03036576949620428,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 9,
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f | data/Foundations_of_Information_Systems.pdf | page 96]\nA bitmap index uses 0s and 1s to show where a value is in a database. It’s great for columns with only a few options, like “Yes/No” or “Rent/Own/Neither,” and facilitates quick searching. Bitmap indexes are efficient for columns with a limited number of distinct values and are often used in data warehouses for complex queries on large datasets. Full-text indexes organize words in text fields to make it easier and faster to search for specific words or phrases.\n\n[be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0 | data/Foundations_of_Information_Systems.pdf | page 96]\nAnother type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.\n\n[dda91c2b90a64ec38b693b95b04f1437f7e3bc8f588f46a0e07c630814a48e66 | data/Foundations_of_Information_Systems.pdf | page 96]\nThe most common type of index is the B-tree index, which maintains a balanced tree structure (a tree structure where all branches are kept roughly the same height), providing efficient insertion, deletion, and lookup operations.\n\nLINK TO LEARNING\n\nLearn more about how a B-tree index (https://openstax.org/r/109BTreeIndex) provides sorted data and allows for efficient searching and access, plus variations in types of B-tree indexes.\n\n[daae2b1a04ea3434a76081420aff9c57448dcba201ea62c74ec2f6d77cf76147 | data/Foundations_of_Information_Systems.pdf | page 96]\nBut it’s not as good for tasks like “Find all customers with IDs between 2000 and 2200,” since hash indexes do not keep data in order, making range searches slower.\n\nNumber First Name Last Name Country\n\n342678 Chris Assam USA\n\n675309 Taylor Tan Australia\n\n649568 Anthony Ray Mexico\n\nTable 3.2 Customer Data in a Hash Index Hash indexing can map values to locations in tables but are inefficient when looking up range values.\n\n[15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39 | data/Foundations_of_Information_Systems.pdf | page 100]\n1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+        "context_ids": [
+          "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f",
+          "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+          "dda91c2b90a64ec38b693b95b04f1437f7e3bc8f588f46a0e07c630814a48e66",
+          "daae2b1a04ea3434a76081420aff9c57448dcba201ea62c74ec2f6d77cf76147",
+          "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39"
+        ],
+        "elapsed_ms": 317.61430006008595
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "The bitmap index represents values with zeros and ones and is useful for columns with few distinct values, such as \"Yes/No\" or \"Rent/Own/Neither.\"",
+          "citations": [
+            "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f"
+          ]
+        },
+        "usage": {
+          "completion_tokens": 90,
+          "prompt_tokens": 1096,
+          "total_tokens": 1186,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f | data/Foundations_of_Information_Systems.pdf | page 96]\nA bitmap index uses 0s and 1s to show where a value is in a database. It’s great for columns with only a few options, like “Yes/No” or “Rent/Own/Neither,” and facilitates quick searching. Bitmap indexes are efficient for columns with a limited number of distinct values and are often used in data warehouses for complex queries on large datasets. Full-text indexes organize words in text fields to make it easier and faster to search for specific words or phrases.\n\n[be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0 | data/Foundations_of_Information_Systems.pdf | page 96]\nAnother type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.\n\n[dda91c2b90a64ec38b693b95b04f1437f7e3bc8f588f46a0e07c630814a48e66 | data/Foundations_of_Information_Systems.pdf | page 96]\nThe most common type of index is the B-tree index, which maintains a balanced tree structure (a tree structure where all branches are kept roughly the same height), providing efficient insertion, deletion, and lookup operations.\n\nLINK TO LEARNING\n\nLearn more about how a B-tree index (https://openstax.org/r/109BTreeIndex) provides sorted data and allows for efficient searching and access, plus variations in types of B-tree indexes.\n\n[daae2b1a04ea3434a76081420aff9c57448dcba201ea62c74ec2f6d77cf76147 | data/Foundations_of_Information_Systems.pdf | page 96]\nBut it’s not as good for tasks like “Find all customers with IDs between 2000 and 2200,” since hash indexes do not keep data in order, making range searches slower.\n\nNumber First Name Last Name Country\n\n342678 Chris Assam USA\n\n675309 Taylor Tan Australia\n\n649568 Anthony Ray Mexico\n\nTable 3.2 Customer Data in a Hash Index Hash indexing can map values to locations in tables but are inefficient when looking up range values.\n\n[15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39 | data/Foundations_of_Information_Systems.pdf | page 100]\n1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+    "context_ids": [
+      "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f",
+      "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+      "dda91c2b90a64ec38b693b95b04f1437f7e3bc8f588f46a0e07c630814a48e66",
+      "daae2b1a04ea3434a76081420aff9c57448dcba201ea62c74ec2f6d77cf76147",
+      "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39"
+    ],
+    "elapsed_seconds": 2.820421600015834,
+    "usage": {
+      "prompt_tokens": 1340,
+      "completion_tokens": 114,
+      "model_calls": 2
+    },
+    "embedding_tokens": 12,
+    "embedding_requests": 1,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  },
+  {
+    "query_id": "test-new-03",
+    "question": "Which constraint ensures a foreign key matches a primary key in another table and prevents orphaned records?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 99,
+        "text": "Constraints are rules applied to database tables to ensure data integrity and reliability (for example, entity constraints that ensure each table has a primary key). A referential constraint maintains relationships between tables, making sure that a foreign key in one table matches a primary key in another table. This ensures that the relationships between records are consistent and eliminates any orphaned record, or a record that references another record that no longer exists.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:99",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 89,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "These keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030834914611005692,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 8
+        }
+      },
+      {
+        "id": "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "Third normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030798389007344232,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 7,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 99,
+        "text": "A check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:99",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 89,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030798389007344232,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 7
+        }
+      },
+      {
+        "id": "0d2046d38f67015855e091e64ddb462bc8ccc5a24ed6b6278e6378e48eca315f",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "90 3 • Database Management Systems\n\nthis out clearly. This ensures the database fits the business or application needs. Once the concept is determined, the next step is to turn the initial models into a more detailed a logical design, which defines tables, columns, primary keys, and foreign keys. A foreign key is a column or set of columns in one table that establishes a relationship with the primary key in another table.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.0304147465437788,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 10,
+          "tfidf": 2
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 387.7055000048131,
+    "ranking_embedding_tokens": 19,
+    "status": "answered",
+    "answer": "The constraint that ensures a foreign key matches a primary key in another table and prevents orphaned records is called a referential constraint. This constraint maintains relationships between tables by making sure that a foreign key in one table corresponds to a primary key in another, thereby ensuring consistent relationships and eliminating orphaned records. [4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66]",
+    "citations": [
+      "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66"
+    ],
+    "citation_rendered": true,
+    "citation_normalized": false,
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "constraint that ensures foreign key matches primary key and prevents orphaned records"
+        },
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 245,
+          "total_tokens": 270,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "constraint that ensures foreign key matches primary key and prevents orphaned records",
+        "filter": null,
+        "results": [
+          {
+            "id": "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 99,
+            "text": "Constraints are rules applied to database tables to ensure data integrity and reliability (for example, entity constraints that ensure each table has a primary key). A referential constraint maintains relationships between tables, making sure that a foreign key in one table matches a primary key in another table. This ensures that the relationships between records are consistent and eliminates any orphaned record, or a record that references another record that no longer exists.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:99",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 89,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 99,
+            "text": "A check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:99",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 89,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 100,
+            "text": "Third normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:100",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 90,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030798389007344232,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 7,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "c04d6a62d2077b53554510b46e414f516138f69060d7cccf9aac2d2069d5019e",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 108,
+            "text": "98 3 • Database Management Systems\n\npredefined schema, which is a document that defines the structure of the data in terms of tables and the relationships between them. Relationships between tables are established using foreign keys, which reference primary keys in other tables, ensuring referential integrity. The RDBMS enforces data integrity through constraints such as primary keys, foreign keys, unique constraints, and checks.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:108",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 98,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030330882352941176,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 8,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 100,
+            "text": "1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:100",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 90,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030309988518943745,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 5,
+              "tfidf": 7
+            }
+          }
+        ],
+        "context": "[4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66 | data/Foundations_of_Information_Systems.pdf | page 99]\nConstraints are rules applied to database tables to ensure data integrity and reliability (for example, entity constraints that ensure each table has a primary key). A referential constraint maintains relationships between tables, making sure that a foreign key in one table matches a primary key in another table. This ensures that the relationships between records are consistent and eliminates any orphaned record, or a record that references another record that no longer exists.\n\n[afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc | data/Foundations_of_Information_Systems.pdf | page 99]\nA check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”\n\n[8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b | data/Foundations_of_Information_Systems.pdf | page 100]\nThird normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.\n\n[c04d6a62d2077b53554510b46e414f516138f69060d7cccf9aac2d2069d5019e | data/Foundations_of_Information_Systems.pdf | page 108]\n98 3 • Database Management Systems\n\npredefined schema, which is a document that defines the structure of the data in terms of tables and the relationships between them. Relationships between tables are established using foreign keys, which reference primary keys in other tables, ensuring referential integrity. The RDBMS enforces data integrity through constraints such as primary keys, foreign keys, unique constraints, and checks.\n\n[15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39 | data/Foundations_of_Information_Systems.pdf | page 100]\n1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+        "context_ids": [
+          "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66",
+          "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+          "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+          "c04d6a62d2077b53554510b46e414f516138f69060d7cccf9aac2d2069d5019e",
+          "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39"
+        ],
+        "elapsed_ms": 432.05410009250045
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "The constraint that ensures a foreign key matches a primary key in another table and prevents orphaned records is called a referential constraint. This constraint maintains relationships between tables by making sure that a foreign key in one table corresponds to a primary key in another, thereby ensuring consistent relationships and eliminating orphaned records.",
+          "citations": [
+            "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66"
+          ]
+        },
+        "usage": {
+          "completion_tokens": 114,
+          "prompt_tokens": 1006,
+          "total_tokens": 1120,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66 | data/Foundations_of_Information_Systems.pdf | page 99]\nConstraints are rules applied to database tables to ensure data integrity and reliability (for example, entity constraints that ensure each table has a primary key). A referential constraint maintains relationships between tables, making sure that a foreign key in one table matches a primary key in another table. This ensures that the relationships between records are consistent and eliminates any orphaned record, or a record that references another record that no longer exists.\n\n[afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc | data/Foundations_of_Information_Systems.pdf | page 99]\nA check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”\n\n[8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b | data/Foundations_of_Information_Systems.pdf | page 100]\nThird normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.\n\n[c04d6a62d2077b53554510b46e414f516138f69060d7cccf9aac2d2069d5019e | data/Foundations_of_Information_Systems.pdf | page 108]\n98 3 • Database Management Systems\n\npredefined schema, which is a document that defines the structure of the data in terms of tables and the relationships between them. Relationships between tables are established using foreign keys, which reference primary keys in other tables, ensuring referential integrity. The RDBMS enforces data integrity through constraints such as primary keys, foreign keys, unique constraints, and checks.\n\n[15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39 | data/Foundations_of_Information_Systems.pdf | page 100]\n1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+    "context_ids": [
+      "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66",
+      "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+      "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+      "c04d6a62d2077b53554510b46e414f516138f69060d7cccf9aac2d2069d5019e",
+      "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39"
+    ],
+    "elapsed_seconds": 3.479803800000809,
+    "usage": {
+      "prompt_tokens": 1251,
+      "completion_tokens": 139,
+      "model_calls": 2
+    },
+    "embedding_tokens": 13,
+    "embedding_requests": 1,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  },
+  {
+    "query_id": "test-new-04",
+    "question": "What does first normal form require for values in each column?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "Third normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03200204813108039,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 99,
+        "text": "A check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:99",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 89,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.031054405392392875,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 7,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "f9daf75d54ac17fea4cf8a7fbe59c7df681163feb3629149f14ddfadf69fe6a9",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 110,
+        "text": "The first step in database design is to gather and define the system requirements. This involves understanding the needs of the users and the objectives of the database. Requirements are categorized as functional, detailing what the database should do, and nonfunctional, specifying performance criteria such as speed, reliability, and security.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:110",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 100,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.029236022193768675,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 6,
+          "tfidf": 11
+        }
+      },
+      {
+        "id": "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "These keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.027884615384615386,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 20
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 434.57599997054785,
+    "ranking_embedding_tokens": 12,
+    "status": "answered",
+    "answer": "First normal form (1NF) requires that each column contains atomic, indivisible values. Each column must have single, simple values, meaning that multiple values (such as multiple phone numbers) should not appear in one cell; instead, each value should be stored in its own row or column. [15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39]",
+    "citations": [
+      "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39"
+    ],
+    "citation_rendered": true,
+    "citation_normalized": false,
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "first normal form requirements for values in each column"
+        },
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 238,
+          "total_tokens": 259,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "first normal form requirements for values in each column",
+        "filter": null,
+        "results": [
+          {
+            "id": "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 100,
+            "text": "1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:100",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 90,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 100,
+            "text": "Third normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:100",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 90,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 99,
+            "text": "A check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:99",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 89,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 6,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "f9daf75d54ac17fea4cf8a7fbe59c7df681163feb3629149f14ddfadf69fe6a9",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 110,
+            "text": "The first step in database design is to gather and define the system requirements. This involves understanding the needs of the users and the objectives of the database. Requirements are categorized as functional, detailing what the database should do, and nonfunctional, specifying performance criteria such as speed, reliability, and security.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:110",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 100,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030090497737556562,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 8,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "515b46d32c81197b21096ae7c65187d92c32130cf721241abc83409d97ef2b73",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 110,
+            "text": "Clear and comprehensive requirements ensure that the database system meets user expectations and business goals, providing a solid foundation for the design process.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:110",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 100,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.028258706467661692,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 7,
+              "tfidf": 15
+            }
+          }
+        ],
+        "context": "[15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39 | data/Foundations_of_Information_Systems.pdf | page 100]\n1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.\n\n[8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b | data/Foundations_of_Information_Systems.pdf | page 100]\nThird normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.\n\n[afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc | data/Foundations_of_Information_Systems.pdf | page 99]\nA check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”\n\n[f9daf75d54ac17fea4cf8a7fbe59c7df681163feb3629149f14ddfadf69fe6a9 | data/Foundations_of_Information_Systems.pdf | page 110]\nThe first step in database design is to gather and define the system requirements. This involves understanding the needs of the users and the objectives of the database. Requirements are categorized as functional, detailing what the database should do, and nonfunctional, specifying performance criteria such as speed, reliability, and security.\n\n[515b46d32c81197b21096ae7c65187d92c32130cf721241abc83409d97ef2b73 | data/Foundations_of_Information_Systems.pdf | page 110]\nClear and comprehensive requirements ensure that the database system meets user expectations and business goals, providing a solid foundation for the design process.",
+        "context_ids": [
+          "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+          "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+          "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+          "f9daf75d54ac17fea4cf8a7fbe59c7df681163feb3629149f14ddfadf69fe6a9",
+          "515b46d32c81197b21096ae7c65187d92c32130cf721241abc83409d97ef2b73"
+        ],
+        "elapsed_ms": 520.9688999457285
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "First normal form (1NF) requires that each column contains atomic, indivisible values. Each column must have single, simple values, meaning that multiple values (such as multiple phone numbers) should not appear in one cell; instead, each value should be stored in its own row or column.",
+          "citations": [
+            "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39"
+          ]
+        },
+        "usage": {
+          "completion_tokens": 116,
+          "prompt_tokens": 908,
+          "total_tokens": 1024,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39 | data/Foundations_of_Information_Systems.pdf | page 100]\n1. First normal form (1NF): Ensures each column contains atomic, indivisible values. Each column has single, simple values, and rows are unique. For example, multiple phone numbers do not appear in one cell—each number gets its own row. 2. Second normal form (2NF): Ensures the database is in 1NF and that all nonkey columns depend on the whole primary key. For example, in a table with OrderID and ProductID as the key, Quantity must depend on both, not just one. 3.\n\n[8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b | data/Foundations_of_Information_Systems.pdf | page 100]\nThird normal form (3NF): This form ensures the database is in 2NF and that all columns are dependent only on the primary key.\n\nFor systems analysts, understanding normalization is key when working with relational databases. Normalization helps organize data to avoid problems like duplicate records or errors. However, it’s important for a systems analyst to know when to balance normalization with performance needs.\n\n[afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc | data/Foundations_of_Information_Systems.pdf | page 99]\nA check constraint specifies the values that can be entered into a column. For example, a check constraint can ensure that the values in an age column are always positive, or that the status column only contains predefined values like “Active” or “Inactive.”\n\n[f9daf75d54ac17fea4cf8a7fbe59c7df681163feb3629149f14ddfadf69fe6a9 | data/Foundations_of_Information_Systems.pdf | page 110]\nThe first step in database design is to gather and define the system requirements. This involves understanding the needs of the users and the objectives of the database. Requirements are categorized as functional, detailing what the database should do, and nonfunctional, specifying performance criteria such as speed, reliability, and security.\n\n[515b46d32c81197b21096ae7c65187d92c32130cf721241abc83409d97ef2b73 | data/Foundations_of_Information_Systems.pdf | page 110]\nClear and comprehensive requirements ensure that the database system meets user expectations and business goals, providing a solid foundation for the design process.",
+    "context_ids": [
+      "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+      "8135ee1305a7618d758cb2552f5625c35d45077be824d9599b1aaa1372302f2b",
+      "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+      "f9daf75d54ac17fea4cf8a7fbe59c7df681163feb3629149f14ddfadf69fe6a9",
+      "515b46d32c81197b21096ae7c65187d92c32130cf721241abc83409d97ef2b73"
+    ],
+    "elapsed_seconds": 2.9730094000697136,
+    "usage": {
+      "prompt_tokens": 1146,
+      "completion_tokens": 137,
+      "model_calls": 2
+    },
+    "embedding_tokens": 9,
+    "embedding_requests": 1,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  },
+  {
+    "query_id": "test-new-05",
+    "question": "During database design, which stage selects data types, indexing strategies and storage planning?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 109,
+        "text": "Physical design focuses on how the database will be built on a specific DBMS. It includes selecting data types, indexing strategies, and storage methods to optimize performance and storage. The transition from logical to physical design is essential as it translates a theoretical model into a practical, efficient database.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:109",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 99,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "bc4f4e3ed8fb227b43bcaa91b4d44671893cb82ca2bb640b555a08e9f150e2cb",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 99,
+        "text": "Database Design Techniques\n\nDatabase design is the process of organizing data according to a database model, which indicates how to structure the data and how the data are stored and connected. A well-designed database will store and retrieve data efficiently and ensure the data are accurate and accessible. Design involves understanding the data needs of an organization and structuring the data to minimize redundancy and maximize performance.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:99",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 89,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.031009615384615385,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "6f7bb1800869beabd26703b2d28caaf1f083f43812f8b376143b22cf400c2917",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 95,
+        "text": "Another important step in the design process is defining the database schema, which is the structures of tables, including columns and data types. This step is followed by using a data modeling tool like Microsoft Visio, which assists in creating and visualizing the database schema, helping to design both the logical and physical aspects of the database. Finally, it is important to implement data security measures such as encryption to protect sensitive data.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:95",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 85,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03057889822595705,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 8
+        }
+      },
+      {
+        "id": "2b4fadccf7e76d01f04a0c2a539e782284241714bb957a655e69d01f8ef01c4d",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 109,
+        "text": "There are two fundamental stages of database design—logical and physical. Logical design involves creating a blueprint of the database that outlines the structure without considering how it will be physically implemented. This stage includes defining entities, their attributes, and relationships, often using tools like ERDs. The goal is to ensure that the database model aligns with business requirements and eliminates redundancies, such as duplicate records or repetitive fields.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:109",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 99,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.03055037313432836,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 4,
+          "tfidf": 7
+        }
+      },
+      {
+        "id": "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 100,
+        "text": "These keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:100",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 90,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.02964254577157803,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 14,
+          "tfidf": 2
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 438.7572000268847,
+    "ranking_embedding_tokens": 16,
+    "status": "answered",
+    "answer": "The stage in database design that selects data types, indexing strategies, and storage planning is the physical design stage. This stage focuses on how the database will be built on a specific DBMS and translates the logical design into a practical, efficient database implementation. [10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd] [2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24]",
+    "citations": [
+      "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+      "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24"
+    ],
+    "citation_rendered": true,
+    "citation_normalized": false,
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "database design stage selecting data types indexing strategies storage planning"
+        },
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 242,
+          "total_tokens": 264,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "database design stage selecting data types indexing strategies storage planning",
+        "filter": null,
+        "results": [
+          {
+            "id": "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 109,
+            "text": "Physical design focuses on how the database will be built on a specific DBMS. It includes selecting data types, indexing strategies, and storage methods to optimize performance and storage. The transition from logical to physical design is essential as it translates a theoretical model into a practical, efficient database.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:109",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 99,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 6,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "bc4f4e3ed8fb227b43bcaa91b4d44671893cb82ca2bb640b555a08e9f150e2cb",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 99,
+            "text": "Database Design Techniques\n\nDatabase design is the process of organizing data according to a database model, which indicates how to structure the data and how the data are stored and connected. A well-designed database will store and retrieve data efficiently and ensure the data are accurate and accessible. Design involves understanding the data needs of an organization and structuring the data to minimize redundancy and maximize performance.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:99",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 89,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03131881575727918,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 1,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "2b4fadccf7e76d01f04a0c2a539e782284241714bb957a655e69d01f8ef01c4d",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 109,
+            "text": "There are two fundamental stages of database design—logical and physical. Logical design involves creating a blueprint of the database that outlines the structure without considering how it will be physically implemented. This stage includes defining entities, their attributes, and relationships, often using tools like ERDs. The goal is to ensure that the database model aligns with business requirements and eliminates redundancies, such as duplicate records or repetitive fields.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:109",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 99,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03125,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 4,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "d9ea6b1adaa529fe474b7afdb33ee938ae2f3b9f2241f17cc09ece9c0ba22af0",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 95,
+            "text": "Database Types\n\nData storage is fundamental to how information is organized and accessed in computing environments. Here are some key types of databases:\n\n• A relational database stores data in tables with rows and columns, making it ideal for structured data. Each table contains data about a specific type of entity, and tables can be linked using keys (MySQL).",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:95",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 85,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.03007688828584351,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 7,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 100,
+            "text": "These keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:100",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 90,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.02976190476190476,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 12,
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd | data/Foundations_of_Information_Systems.pdf | page 109]\nPhysical design focuses on how the database will be built on a specific DBMS. It includes selecting data types, indexing strategies, and storage methods to optimize performance and storage. The transition from logical to physical design is essential as it translates a theoretical model into a practical, efficient database.\n\n[bc4f4e3ed8fb227b43bcaa91b4d44671893cb82ca2bb640b555a08e9f150e2cb | data/Foundations_of_Information_Systems.pdf | page 99]\nDatabase Design Techniques\n\nDatabase design is the process of organizing data according to a database model, which indicates how to structure the data and how the data are stored and connected. A well-designed database will store and retrieve data efficiently and ensure the data are accurate and accessible. Design involves understanding the data needs of an organization and structuring the data to minimize redundancy and maximize performance.\n\n[2b4fadccf7e76d01f04a0c2a539e782284241714bb957a655e69d01f8ef01c4d | data/Foundations_of_Information_Systems.pdf | page 109]\nThere are two fundamental stages of database design—logical and physical. Logical design involves creating a blueprint of the database that outlines the structure without considering how it will be physically implemented. This stage includes defining entities, their attributes, and relationships, often using tools like ERDs. The goal is to ensure that the database model aligns with business requirements and eliminates redundancies, such as duplicate records or repetitive fields.\n\n[d9ea6b1adaa529fe474b7afdb33ee938ae2f3b9f2241f17cc09ece9c0ba22af0 | data/Foundations_of_Information_Systems.pdf | page 95]\nDatabase Types\n\nData storage is fundamental to how information is organized and accessed in computing environments. Here are some key types of databases:\n\n• A relational database stores data in tables with rows and columns, making it ideal for structured data. Each table contains data about a specific type of entity, and tables can be linked using keys (MySQL).\n\n[2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24 | data/Foundations_of_Information_Systems.pdf | page 100]\nThese keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:",
+        "context_ids": [
+          "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+          "bc4f4e3ed8fb227b43bcaa91b4d44671893cb82ca2bb640b555a08e9f150e2cb",
+          "2b4fadccf7e76d01f04a0c2a539e782284241714bb957a655e69d01f8ef01c4d",
+          "d9ea6b1adaa529fe474b7afdb33ee938ae2f3b9f2241f17cc09ece9c0ba22af0",
+          "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24"
+        ],
+        "elapsed_ms": 322.4486999679357
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "The stage in database design that selects data types, indexing strategies, and storage planning is the physical design stage. This stage focuses on how the database will be built on a specific DBMS and translates the logical design into a practical, efficient database implementation.",
+          "citations": [
+            "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+            "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24"
+          ]
+        },
+        "usage": {
+          "completion_tokens": 145,
+          "prompt_tokens": 965,
+          "total_tokens": 1110,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd | data/Foundations_of_Information_Systems.pdf | page 109]\nPhysical design focuses on how the database will be built on a specific DBMS. It includes selecting data types, indexing strategies, and storage methods to optimize performance and storage. The transition from logical to physical design is essential as it translates a theoretical model into a practical, efficient database.\n\n[bc4f4e3ed8fb227b43bcaa91b4d44671893cb82ca2bb640b555a08e9f150e2cb | data/Foundations_of_Information_Systems.pdf | page 99]\nDatabase Design Techniques\n\nDatabase design is the process of organizing data according to a database model, which indicates how to structure the data and how the data are stored and connected. A well-designed database will store and retrieve data efficiently and ensure the data are accurate and accessible. Design involves understanding the data needs of an organization and structuring the data to minimize redundancy and maximize performance.\n\n[2b4fadccf7e76d01f04a0c2a539e782284241714bb957a655e69d01f8ef01c4d | data/Foundations_of_Information_Systems.pdf | page 109]\nThere are two fundamental stages of database design—logical and physical. Logical design involves creating a blueprint of the database that outlines the structure without considering how it will be physically implemented. This stage includes defining entities, their attributes, and relationships, often using tools like ERDs. The goal is to ensure that the database model aligns with business requirements and eliminates redundancies, such as duplicate records or repetitive fields.\n\n[d9ea6b1adaa529fe474b7afdb33ee938ae2f3b9f2241f17cc09ece9c0ba22af0 | data/Foundations_of_Information_Systems.pdf | page 95]\nDatabase Types\n\nData storage is fundamental to how information is organized and accessed in computing environments. Here are some key types of databases:\n\n• A relational database stores data in tables with rows and columns, making it ideal for structured data. Each table contains data about a specific type of entity, and tables can be linked using keys (MySQL).\n\n[2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24 | data/Foundations_of_Information_Systems.pdf | page 100]\nThese keys are used to maintain referential integrity between the two tables, ensuring that the value in the foreign key column corresponds to an existing value in the referenced table. Finally, the physical design translates the logical design into a physical structure (via actual implementation in the database) that the DBMS can use. This involves choosing data types, indexing strategies, and planning for storage.\n\nThe database modeler also needs to attend to these needs during the design:",
+    "context_ids": [
+      "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+      "bc4f4e3ed8fb227b43bcaa91b4d44671893cb82ca2bb640b555a08e9f150e2cb",
+      "2b4fadccf7e76d01f04a0c2a539e782284241714bb957a655e69d01f8ef01c4d",
+      "d9ea6b1adaa529fe474b7afdb33ee938ae2f3b9f2241f17cc09ece9c0ba22af0",
+      "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24"
+    ],
+    "elapsed_seconds": 2.798467900021933,
+    "usage": {
+      "prompt_tokens": 1207,
+      "completion_tokens": 167,
+      "model_calls": 2
+    },
+    "embedding_tokens": 10,
+    "embedding_requests": 1,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  },
+  {
+    "query_id": "test-absent-3",
+    "question": "What was the exact measured database outage duration at OpenStax on 15 November 2026?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 52,
+        "text": "Access for free at openstax.org",
+        "metadata": {
+          "chapter": 2,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:52",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 42,
+          "chapter_title": "Data Management and Information Systems Business Strategies",
+          "extraction_status": "ok"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "d7e9747b79b262b87e3d4e8c609cb4497427ecc0b1ccd3057f0f863cd06e2c6e",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 54,
+        "text": "These technologies provide innovative ways to manage, integrate, and analyze data at scale, which is necessary in the age of big data and advanced analytics.\n\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": 2,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:54",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 44,
+          "chapter_title": "Data Management and Information Systems Business Strategies",
+          "extraction_status": "ok"
+        },
+        "score": 0.03200204813108039,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "f021739f41c9b83847d435eac8ca2334f33e322c457da58e52045b65fd91b600",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 116,
+        "text": "• Data standardization: Maintain consistent formatting throughout data sources.\n\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:116",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 106,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030798389007344232,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 7
+        }
+      },
+      {
+        "id": "0d9a4eb1230e082bc25626474159d696fff2cfcae4b3b1a80f370809277d5e7b",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 94,
+        "text": "Another index on the created_at column allows the database to instantly sort posts by the most recent time stamps. This allows the app to load the user’s feed almost instantly, even with billions of posts in the database, providing a seamless user experience.\n\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:94",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 84,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.030303030303030304,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 6,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "f495c795e05ac4b9c71ec3ccb0e348a60bd0325967e1b2473a3ed39231df9b89",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "NoSQL database Handles unstructured and semistructured data with specific query languages\n\nTable 3.3 Data Retrieval Techniques There are different ways to retrieve data, from simple SQL queries to quickly finding records to indexing for faster searches.\n\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.02715098147128967,
+        "strategy": "tfidf",
+        "ranks": {
+          "dense": 9,
+          "tfidf": 19
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 460.9130999306217,
+    "ranking_embedding_tokens": 20,
+    "status": "abstain",
+    "answer": "The indexed OpenStax textbook corpus does not contain information about the exact measured database outage duration at OpenStax on 15 November 2026.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "OpenStax database outage duration 15 November 2026"
+        },
+        "usage": {
+          "completion_tokens": 24,
+          "prompt_tokens": 246,
+          "total_tokens": 270,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "OpenStax database outage duration 15 November 2026",
+        "filter": null,
+        "results": [
+          {
+            "id": "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 52,
+            "text": "Access for free at openstax.org",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:52",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 42,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.032018442622950824,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 4,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "0d9a4eb1230e082bc25626474159d696fff2cfcae4b3b1a80f370809277d5e7b",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 94,
+            "text": "Another index on the created_at column allows the database to instantly sort posts by the most recent time stamps. This allows the app to load the user’s feed almost instantly, even with billions of posts in the database, providing a seamless user experience.\n\nAccess for free at openstax.org",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:94",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 84,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.030017921146953404,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 2,
+              "tfidf": 12
+            }
+          },
+          {
+            "id": "f021739f41c9b83847d435eac8ca2334f33e322c457da58e52045b65fd91b600",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 116,
+            "text": "• Data standardization: Maintain consistent formatting throughout data sources.\n\nAccess for free at openstax.org",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:116",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 106,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.02964426877470356,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 6,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "41414a0d23d4869023e6c5e1e37b96a3cbde401ce4fe731472928a5f4360db48",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 118,
+            "text": "108 3 • Database Management Systems\n\nGLOBAL CONNECTIONS\n\nNetflix Database",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:118",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 108,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.028665028665028666,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 14,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "f495c795e05ac4b9c71ec3ccb0e348a60bd0325967e1b2473a3ed39231df9b89",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "NoSQL database Handles unstructured and semistructured data with specific query languages\n\nTable 3.3 Data Retrieval Techniques There are different ways to retrieve data, from simple SQL queries to quickly finding records to indexing for faster searches.\n\nAccess for free at openstax.org",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.027222222222222224,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 12,
+              "tfidf": 15
+            }
+          }
+        ],
+        "context": "[e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c | data/Foundations_of_Information_Systems.pdf | page 52]\nAccess for free at openstax.org\n\n[0d9a4eb1230e082bc25626474159d696fff2cfcae4b3b1a80f370809277d5e7b | data/Foundations_of_Information_Systems.pdf | page 94]\nAnother index on the created_at column allows the database to instantly sort posts by the most recent time stamps. This allows the app to load the user’s feed almost instantly, even with billions of posts in the database, providing a seamless user experience.\n\nAccess for free at openstax.org\n\n[f021739f41c9b83847d435eac8ca2334f33e322c457da58e52045b65fd91b600 | data/Foundations_of_Information_Systems.pdf | page 116]\n• Data standardization: Maintain consistent formatting throughout data sources.\n\nAccess for free at openstax.org\n\n[41414a0d23d4869023e6c5e1e37b96a3cbde401ce4fe731472928a5f4360db48 | data/Foundations_of_Information_Systems.pdf | page 118]\n108 3 • Database Management Systems\n\nGLOBAL CONNECTIONS\n\nNetflix Database\n\n[f495c795e05ac4b9c71ec3ccb0e348a60bd0325967e1b2473a3ed39231df9b89 | data/Foundations_of_Information_Systems.pdf | page 96]\nNoSQL database Handles unstructured and semistructured data with specific query languages\n\nTable 3.3 Data Retrieval Techniques There are different ways to retrieve data, from simple SQL queries to quickly finding records to indexing for faster searches.\n\nAccess for free at openstax.org",
+        "context_ids": [
+          "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+          "0d9a4eb1230e082bc25626474159d696fff2cfcae4b3b1a80f370809277d5e7b",
+          "f021739f41c9b83847d435eac8ca2334f33e322c457da58e52045b65fd91b600",
+          "41414a0d23d4869023e6c5e1e37b96a3cbde401ce4fe731472928a5f4360db48",
+          "f495c795e05ac4b9c71ec3ccb0e348a60bd0325967e1b2473a3ed39231df9b89"
+        ],
+        "elapsed_ms": 412.3478999827057
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "abstain",
+          "answer": "The indexed OpenStax textbook corpus does not contain information about the exact measured database outage duration at OpenStax on 15 November 2026.",
+          "citations": []
+        },
+        "usage": {
+          "completion_tokens": 51,
+          "prompt_tokens": 764,
+          "total_tokens": 815,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c | data/Foundations_of_Information_Systems.pdf | page 52]\nAccess for free at openstax.org\n\n[0d9a4eb1230e082bc25626474159d696fff2cfcae4b3b1a80f370809277d5e7b | data/Foundations_of_Information_Systems.pdf | page 94]\nAnother index on the created_at column allows the database to instantly sort posts by the most recent time stamps. This allows the app to load the user’s feed almost instantly, even with billions of posts in the database, providing a seamless user experience.\n\nAccess for free at openstax.org\n\n[f021739f41c9b83847d435eac8ca2334f33e322c457da58e52045b65fd91b600 | data/Foundations_of_Information_Systems.pdf | page 116]\n• Data standardization: Maintain consistent formatting throughout data sources.\n\nAccess for free at openstax.org\n\n[41414a0d23d4869023e6c5e1e37b96a3cbde401ce4fe731472928a5f4360db48 | data/Foundations_of_Information_Systems.pdf | page 118]\n108 3 • Database Management Systems\n\nGLOBAL CONNECTIONS\n\nNetflix Database\n\n[f495c795e05ac4b9c71ec3ccb0e348a60bd0325967e1b2473a3ed39231df9b89 | data/Foundations_of_Information_Systems.pdf | page 96]\nNoSQL database Handles unstructured and semistructured data with specific query languages\n\nTable 3.3 Data Retrieval Techniques There are different ways to retrieve data, from simple SQL queries to quickly finding records to indexing for faster searches.\n\nAccess for free at openstax.org",
+    "context_ids": [
+      "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+      "0d9a4eb1230e082bc25626474159d696fff2cfcae4b3b1a80f370809277d5e7b",
+      "f021739f41c9b83847d435eac8ca2334f33e322c457da58e52045b65fd91b600",
+      "41414a0d23d4869023e6c5e1e37b96a3cbde401ce4fe731472928a5f4360db48",
+      "f495c795e05ac4b9c71ec3ccb0e348a60bd0325967e1b2473a3ed39231df9b89"
+    ],
+    "elapsed_seconds": 2.4590531999710947,
+    "usage": {
+      "prompt_tokens": 1010,
+      "completion_tokens": 75,
+      "model_calls": 2
+    },
+    "embedding_tokens": 12,
+    "embedding_requests": 1,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  },
+  {
+    "query_id": "test-absent-4",
+    "question": "What exact pgvector version and Docker container ID were used by the author of this textbook?",
+    "split": "test",
+    "original_ranking": [
+      {
+        "id": "63fbebb982ddbce9778b5b107ca6523efdcbc447f8eceb73ee0af7ecbad23108",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 111,
+        "text": "1. Requirement analysis. The first step is to gather and analyze user requirements. After consulting with library staff and stakeholders, you identify the following criteria:\n\n◦ Store information about books, including\n\n▪ title,\n\n▪ author,\n\n▪ International Standard Book Number (ISBN) (a unique thirteen-digit code used to identify a book),\n\n▪ edition, and\n\n▪ availability status.\n\n◦ Maintain member records with details like\n\n▪ name,\n\n▪ membership ID,\n\n▪ contact information, and",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:111",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 101,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "tfidf",
+        "ranks": {
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "8246d67847b1ba55f27d7c0a6c0da5984032552a75deb7d7645eb348c6afe74b",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 118,
+        "text": "4 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration 5 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration\n\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:118",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 108,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.01639344262295082,
+        "ranks": {
+          "dense": 1
+        }
+      },
+      {
+        "id": "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 96,
+        "text": "Another type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.",
+        "metadata": {
+          "chapter": 3,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:96",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 86,
+          "chapter_title": "Database Management Systems",
+          "extraction_status": "ok"
+        },
+        "score": 0.016129032258064516,
+        "strategy": "tfidf",
+        "ranks": {
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 52,
+        "text": "Access for free at openstax.org",
+        "metadata": {
+          "chapter": 2,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:52",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 42,
+          "chapter_title": "Data Management and Information Systems Business Strategies",
+          "extraction_status": "ok"
+        },
+        "score": 0.016129032258064516,
+        "ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "id": "d7e9747b79b262b87e3d4e8c609cb4497427ecc0b1ccd3057f0f863cd06e2c6e",
+        "source_id": "foundations-information-systems",
+        "source": "data/Foundations_of_Information_Systems.pdf",
+        "page": 54,
+        "text": "These technologies provide innovative ways to manage, integrate, and analyze data at scale, which is necessary in the age of big data and advanced analytics.\n\nAccess for free at openstax.org",
+        "metadata": {
+          "chapter": 2,
+          "license": "CC BY-NC-SA 4.0",
+          "page_id": "foundations-is:pdf:54",
+          "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+          "printed_page": 44,
+          "chapter_title": "Data Management and Information Systems Business Strategies",
+          "extraction_status": "ok"
+        },
+        "score": 0.015873015873015872,
+        "ranks": {
+          "dense": 3
+        }
+      }
+    ],
+    "original_ranking_error": null,
+    "ranking_ms": 368.64200001582503,
+    "ranking_embedding_tokens": 18,
+    "status": "abstain",
+    "answer": "The indexed textbook corpus does not contain information about the exact pgvector version or Docker container ID used by the author of the textbook.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "pgvector version Docker container ID"
+        },
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 244,
+          "total_tokens": 262,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "pgvector version Docker container ID",
+        "filter": null,
+        "results": [
+          {
+            "id": "1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 66,
+            "text": "The incoming coalition government decided that the proposal was too costly and lacked significant advantages for national security, underscoring the misalignment between business and IT strategies. Although the national identity card plan was discontinued, specific ID cards, like the biometric residence permit for non–European Union nationals, were introduced as documentation of a person’s immigration status.",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:66",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 56,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.029857397504456328,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 8,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 61,
+            "text": "real-time logistics solution that analyzes vast datasets to calculate billions of potential routes, ensuring the fastest and most efficient pizza delivery for each customer.9 Domino’s has quantified the value of their IT\n\ninvestment by measuring improvements in delivery times, a key performance indicator directly linked to customer satisfaction.",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:61",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 51,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "ranks": {
+              "dense": 1
+            }
+          },
+          {
+            "id": "c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 68,
+            "text": "The freemium model provides a free basic service, with the option to upgrade to a premium version for enhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\nAccess for free at openstax.org",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:68",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 58,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "tfidf",
+            "ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 96,
+            "text": "Another type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:96",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 86,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "tfidf",
+            "ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 61,
+            "text": "to Help Domino’s Deliver Pizzas Faster,” Digital Trends, November 9, 2021, https://www.digitaltrends.com/computing/nvidia-using-ai-to-help-dominos-deliver-pizzas-faster/",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:61",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 51,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.016129032258064516,
+            "ranks": {
+              "dense": 2
+            }
+          }
+        ],
+        "context": "[1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a | data/Foundations_of_Information_Systems.pdf | page 66]\nThe incoming coalition government decided that the proposal was too costly and lacked significant advantages for national security, underscoring the misalignment between business and IT strategies. Although the national identity card plan was discontinued, specific ID cards, like the biometric residence permit for non–European Union nationals, were introduced as documentation of a person’s immigration status.\n\n[a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6 | data/Foundations_of_Information_Systems.pdf | page 61]\nreal-time logistics solution that analyzes vast datasets to calculate billions of potential routes, ensuring the fastest and most efficient pizza delivery for each customer.9 Domino’s has quantified the value of their IT\n\ninvestment by measuring improvements in delivery times, a key performance indicator directly linked to customer satisfaction.\n\n[c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2 | data/Foundations_of_Information_Systems.pdf | page 68]\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for enhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\nAccess for free at openstax.org\n\n[be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0 | data/Foundations_of_Information_Systems.pdf | page 96]\nAnother type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.\n\n[de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965 | data/Foundations_of_Information_Systems.pdf | page 61]\nto Help Domino’s Deliver Pizzas Faster,” Digital Trends, November 9, 2021, https://www.digitaltrends.com/computing/nvidia-using-ai-to-help-dominos-deliver-pizzas-faster/",
+        "context_ids": [
+          "1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a",
+          "a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6",
+          "c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2",
+          "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+          "de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965"
+        ],
+        "elapsed_ms": 401.7307000467554
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "search",
+        "arguments": {
+          "query": "pgvector version Docker container ID textbook author"
+        },
+        "usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 901,
+          "total_tokens": 921,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "hybrid",
+        "query": "pgvector version Docker container ID textbook author",
+        "filter": null,
+        "results": [
+          {
+            "id": "4e1fcc7e858080255f30594d66d67533eaaf7e41af4b1c99ade3d36b591c3262",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 66,
+            "text": "Innovation: modification of work “Idea (89054) - The Noun Project” by “Nice and Serious”/Wikimedia Commons, CC0 1.0; credit Customers: modification of work “Noun Project people icon 3376085” by Anhar Ismail, ID/Wikimedia Commons, CC BY 3.0; credit Collaboration: modification of work “Handshake, by David“ by David/Wikimedia Commons, CC BY 3.0; credit Goals: modification of work “Checklist Noun project 5166” by Aaron Dodson/Wikimedia Commons, CC BY 3.0; credit Financials: modification of work",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:66",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 56,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.027205882352941177,
+            "strategy": "tfidf",
+            "ranks": {
+              "dense": 20,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "63fbebb982ddbce9778b5b107ca6523efdcbc447f8eceb73ee0af7ecbad23108",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 111,
+            "text": "1. Requirement analysis. The first step is to gather and analyze user requirements. After consulting with library staff and stakeholders, you identify the following criteria:\n\n◦ Store information about books, including\n\n▪ title,\n\n▪ author,\n\n▪ International Standard Book Number (ISBN) (a unique thirteen-digit code used to identify a book),\n\n▪ edition, and\n\n▪ availability status.\n\n◦ Maintain member records with details like\n\n▪ name,\n\n▪ membership ID,\n\n▪ contact information, and",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:111",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 101,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "tfidf",
+            "ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 52,
+            "text": "Access for free at openstax.org",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:52",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 42,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "ranks": {
+              "dense": 1
+            }
+          },
+          {
+            "id": "8246d67847b1ba55f27d7c0a6c0da5984032552a75deb7d7645eb348c6afe74b",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 118,
+            "text": "4 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration 5 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration\n\nAccess for free at openstax.org",
+            "metadata": {
+              "chapter": 3,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:118",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 108,
+              "chapter_title": "Database Management Systems",
+              "extraction_status": "ok"
+            },
+            "score": 0.016129032258064516,
+            "ranks": {
+              "dense": 2
+            }
+          },
+          {
+            "id": "c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2",
+            "source_id": "foundations-information-systems",
+            "source": "data/Foundations_of_Information_Systems.pdf",
+            "page": 68,
+            "text": "The freemium model provides a free basic service, with the option to upgrade to a premium version for enhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\nAccess for free at openstax.org",
+            "metadata": {
+              "chapter": 2,
+              "license": "CC BY-NC-SA 4.0",
+              "page_id": "foundations-is:pdf:68",
+              "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+              "printed_page": 58,
+              "chapter_title": "Data Management and Information Systems Business Strategies",
+              "extraction_status": "ok"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "tfidf",
+            "ranks": {
+              "tfidf": 2
+            }
+          }
+        ],
+        "context": "[4e1fcc7e858080255f30594d66d67533eaaf7e41af4b1c99ade3d36b591c3262 | data/Foundations_of_Information_Systems.pdf | page 66]\nInnovation: modification of work “Idea (89054) - The Noun Project” by “Nice and Serious”/Wikimedia Commons, CC0 1.0; credit Customers: modification of work “Noun Project people icon 3376085” by Anhar Ismail, ID/Wikimedia Commons, CC BY 3.0; credit Collaboration: modification of work “Handshake, by David“ by David/Wikimedia Commons, CC BY 3.0; credit Goals: modification of work “Checklist Noun project 5166” by Aaron Dodson/Wikimedia Commons, CC BY 3.0; credit Financials: modification of work\n\n[63fbebb982ddbce9778b5b107ca6523efdcbc447f8eceb73ee0af7ecbad23108 | data/Foundations_of_Information_Systems.pdf | page 111]\n1. Requirement analysis. The first step is to gather and analyze user requirements. After consulting with library staff and stakeholders, you identify the following criteria:\n\n◦ Store information about books, including\n\n▪ title,\n\n▪ author,\n\n▪ International Standard Book Number (ISBN) (a unique thirteen-digit code used to identify a book),\n\n▪ edition, and\n\n▪ availability status.\n\n◦ Maintain member records with details like\n\n▪ name,\n\n▪ membership ID,\n\n▪ contact information, and\n\n[e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c | data/Foundations_of_Information_Systems.pdf | page 52]\nAccess for free at openstax.org\n\n[8246d67847b1ba55f27d7c0a6c0da5984032552a75deb7d7645eb348c6afe74b | data/Foundations_of_Information_Systems.pdf | page 118]\n4 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration 5 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration\n\nAccess for free at openstax.org\n\n[c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2 | data/Foundations_of_Information_Systems.pdf | page 68]\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for enhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\nAccess for free at openstax.org\n\n[1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a | data/Foundations_of_Information_Systems.pdf | page 66]\nThe incoming coalition government decided that the proposal was too costly and lacked significant advantages for national security, underscoring the misalignment between business and IT strategies. Although the national identity card plan was discontinued, specific ID cards, like the biometric residence permit for non–European Union nationals, were introduced as documentation of a person’s immigration status.\n\n[a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6 | data/Foundations_of_Information_Systems.pdf | page 61]\nreal-time logistics solution that analyzes vast datasets to calculate billions of potential routes, ensuring the fastest and most efficient pizza delivery for each customer.9 Domino’s has quantified the value of their IT\n\ninvestment by measuring improvements in delivery times, a key performance indicator directly linked to customer satisfaction.\n\n[be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0 | data/Foundations_of_Information_Systems.pdf | page 96]\nAnother type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.\n\n[de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965 | data/Foundations_of_Information_Systems.pdf | page 61]\nto Help Domino’s Deliver Pizzas Faster,” Digital Trends, November 9, 2021, https://www.digitaltrends.com/computing/nvidia-using-ai-to-help-dominos-deliver-pizzas-faster/",
+        "context_ids": [
+          "4e1fcc7e858080255f30594d66d67533eaaf7e41af4b1c99ade3d36b591c3262",
+          "63fbebb982ddbce9778b5b107ca6523efdcbc447f8eceb73ee0af7ecbad23108",
+          "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+          "8246d67847b1ba55f27d7c0a6c0da5984032552a75deb7d7645eb348c6afe74b",
+          "c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2",
+          "1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a",
+          "a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6",
+          "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+          "de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965"
+        ],
+        "elapsed_ms": 445.1093999668956
+      },
+      {
+        "event": "model",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "action": "finish",
+        "arguments": {
+          "status": "abstain",
+          "answer": "The indexed textbook corpus does not contain information about the exact pgvector version or Docker container ID used by the author of the textbook.",
+          "citations": []
+        },
+        "usage": {
+          "completion_tokens": 47,
+          "prompt_tokens": 1570,
+          "total_tokens": 1617,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        }
+      }
+    ],
+    "context": "[4e1fcc7e858080255f30594d66d67533eaaf7e41af4b1c99ade3d36b591c3262 | data/Foundations_of_Information_Systems.pdf | page 66]\nInnovation: modification of work “Idea (89054) - The Noun Project” by “Nice and Serious”/Wikimedia Commons, CC0 1.0; credit Customers: modification of work “Noun Project people icon 3376085” by Anhar Ismail, ID/Wikimedia Commons, CC BY 3.0; credit Collaboration: modification of work “Handshake, by David“ by David/Wikimedia Commons, CC BY 3.0; credit Goals: modification of work “Checklist Noun project 5166” by Aaron Dodson/Wikimedia Commons, CC BY 3.0; credit Financials: modification of work\n\n[63fbebb982ddbce9778b5b107ca6523efdcbc447f8eceb73ee0af7ecbad23108 | data/Foundations_of_Information_Systems.pdf | page 111]\n1. Requirement analysis. The first step is to gather and analyze user requirements. After consulting with library staff and stakeholders, you identify the following criteria:\n\n◦ Store information about books, including\n\n▪ title,\n\n▪ author,\n\n▪ International Standard Book Number (ISBN) (a unique thirteen-digit code used to identify a book),\n\n▪ edition, and\n\n▪ availability status.\n\n◦ Maintain member records with details like\n\n▪ name,\n\n▪ membership ID,\n\n▪ contact information, and\n\n[e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c | data/Foundations_of_Information_Systems.pdf | page 52]\nAccess for free at openstax.org\n\n[8246d67847b1ba55f27d7c0a6c0da5984032552a75deb7d7645eb348c6afe74b | data/Foundations_of_Information_Systems.pdf | page 118]\n4 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration 5 Yury Izrailevsky, Stevan Vlaovic, and Ruslan Meshenberg, “Completing the Netflix Cloud Migration,” Netflix, February 11, 2016, https://about.netflix.com/en/news/completing-the-netflix-cloud-migration\n\nAccess for free at openstax.org\n\n[c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2 | data/Foundations_of_Information_Systems.pdf | page 68]\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for enhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\nAccess for free at openstax.org\n\n[1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a | data/Foundations_of_Information_Systems.pdf | page 66]\nThe incoming coalition government decided that the proposal was too costly and lacked significant advantages for national security, underscoring the misalignment between business and IT strategies. Although the national identity card plan was discontinued, specific ID cards, like the biometric residence permit for non–European Union nationals, were introduced as documentation of a person’s immigration status.\n\n[a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6 | data/Foundations_of_Information_Systems.pdf | page 61]\nreal-time logistics solution that analyzes vast datasets to calculate billions of potential routes, ensuring the fastest and most efficient pizza delivery for each customer.9 Domino’s has quantified the value of their IT\n\ninvestment by measuring improvements in delivery times, a key performance indicator directly linked to customer satisfaction.\n\n[be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0 | data/Foundations_of_Information_Systems.pdf | page 96]\nAnother type is the hash index, which uses a hash function to map data to a fixed-size table. Hash indexes are ideal for equality searches but are less efficient for range queries (Table 3.2). For example, a hash index works well when searching for something specific, like “Find Customer ID = 342678,” because it can quickly locate that exact ID.\n\n[de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965 | data/Foundations_of_Information_Systems.pdf | page 61]\nto Help Domino’s Deliver Pizzas Faster,” Digital Trends, November 9, 2021, https://www.digitaltrends.com/computing/nvidia-using-ai-to-help-dominos-deliver-pizzas-faster/",
+    "context_ids": [
+      "4e1fcc7e858080255f30594d66d67533eaaf7e41af4b1c99ade3d36b591c3262",
+      "63fbebb982ddbce9778b5b107ca6523efdcbc447f8eceb73ee0af7ecbad23108",
+      "e9723db58042dfc66580ef974df4fe6c4c4291fc5951a2ab7f7f806046ea7d7c",
+      "8246d67847b1ba55f27d7c0a6c0da5984032552a75deb7d7645eb348c6afe74b",
+      "c5d67fcb26334acaeab39b751b0a3840762cf1f1e75afc31fd226c0e613e6ec2",
+      "1c1b11550c547fc515ec52d7b7c3d6fcd76a5662a0cd3b73be2a4f368af2ba9a",
+      "a9bb717664eebccab2e0fa12f50734d8ae0578423489c7c9cbc59209d36bd2b6",
+      "be921891cd23a94425f82e727eb556abb6feb62d9fa08d2fd7382adac59847b0",
+      "de0ea8fcb71105bd30addb72716a66f2bae8415ce5424c5f84a4efbf2c8e6965"
+    ],
+    "elapsed_seconds": 3.6726277000270784,
+    "usage": {
+      "prompt_tokens": 2715,
+      "completion_tokens": 85,
+      "model_calls": 3
+    },
+    "embedding_tokens": 14,
+    "embedding_requests": 2,
+    "model": "gpt-4.1-mini",
+    "cost_usd": null,
+    "cost_note": "Actual tokens recorded; no unverified monetary rates assumed."
+  }
+]

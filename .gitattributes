@@ -1,0 +1,2 @@
+# Keep the frozen agent source hash stable across platform checkouts.
+src/lab.py text eol=lf

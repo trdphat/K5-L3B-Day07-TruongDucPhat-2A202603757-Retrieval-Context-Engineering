@@ -1,0 +1,279 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      56,
+      105,
+      116
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Human verified against the original PDF, page 105. The source confirms accurate, consistent, complete, and timely data. The answer is fully supported, including the additional fourth characteristic."
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      52,
+      54,
+      96,
+      110
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Human verified against original PDF page 54. Federated analytics supports analyzing distributed data without moving it to a central repository. Security, privacy, and distributed analysis benefits are also supported by the cited source."
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      95,
+      99,
+      105,
+      108,
+      114
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Human verified against original PDF page 95. The source explicitly confirms that durability ensures completed transactions remain saved even if the system crashes. The answer and citation are fully supported."
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      52,
+      53,
+      109
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Retention includes requirements-based periods, archiving, purging and policies."
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      51,
+      55,
+      80,
+      91
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Technical DAMA-DMBOK versus business MIKE2.0; maturity detail checked."
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      56,
+      94,
+      105,
+      116
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Veracity means reliability, accuracy and trustworthiness."
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      51,
+      58,
+      66,
+      82
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Infrastructure covers storage, processing, analysis and governance."
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      59,
+      60
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nonprogrammed decisions are unique, complex and lack predefined guidelines."
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      67,
+      68,
+      70
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "p68 supports definition, examples and platform strategy; p67 supports Amazon fulfillment example. No p69 marketplace strategy is asserted."
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      92,
+      115,
+      116
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Mobile databases save storage/power and fit limited device resources."
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      99,
+      100,
+      108,
+      110
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Check constraints restrict column values, including positive age and status."
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      105,
+      106
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Least privilege gives only necessary permissions."
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      105,
+      106
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Parameterized queries treat input as data rather than executable code."
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      95,
+      108
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Document storage JSON/BSON/XML and nested structures are supported."
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      92,
+      115,
+      116,
+      118
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "SQLite is explicitly named for local mobile storage."
+  },
+  {
+    "query_id": "dev-absent-1",
+    "citation_support": [],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      52,
+      114,
+      117,
+      118,
+      119
+    ],
+    "abstention_correct": true,
+    "reason": "Explicit indexed-corpus insufficiency, no guessed value. Corpus scope and absence checks support abstention."
+  },
+  {
+    "query_id": "dev-absent-2",
+    "citation_support": [],
+    "reviewer": "Truong Duc Phat",
+    "human_verified": true,
+    "evidence_pages": [
+      94,
+      105,
+      114,
+      118
+    ],
+    "abstention_correct": true,
+    "reason": "Explicit indexed-corpus insufficiency, no guessed value. Corpus scope and absence checks support abstention."
+  }
+]

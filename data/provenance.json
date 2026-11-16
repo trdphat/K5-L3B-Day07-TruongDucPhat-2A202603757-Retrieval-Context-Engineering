@@ -1,0 +1,801 @@
+{
+  "strategy": "20261114T132647004212Z_B",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "chunks": 463,
+  "pages": 47,
+  "corpus_sha256": "1bc371088d784db2f3a190861de637a6bd8d680df8d517b34c97e3b2583a4ff1",
+  "benchmark_sha256": "35c438d189eb3deb2db309d7addc541951f79848425fd4a7df03044c43963902",
+  "source": {
+    "status": "final_selection_for_run_20261114T132647004212Z",
+    "source_id": "foundations-information-systems",
+    "title": "Foundations of Information Systems",
+    "source_path_or_url": "data/Foundations_of_Information_Systems.pdf",
+    "source_url": "https://openstax.org/details/books/foundations-information-systems",
+    "license_or_permission": "CC BY-NC-SA 4.0, as printed on physical PDF page 4",
+    "license_note": "Preserve attribution and license terms. This field records the PDF notice; it does not verify permission for every downstream use.",
+    "attribution": "OpenStax, Rice University. Foundations of Information Systems. Access for free at openstax.org.",
+    "accessed_at": "2026-11-14",
+    "accessed_at_note": "Date this local file was inspected; not a claimed website download date.",
+    "sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "physical_page_count": 497,
+    "candidate_page_count": 61,
+    "validated_content_page_count": 47,
+    "page_numbering": "Physical PDF pages, 1-based. For these selected ranges, printed page = PDF page - 10.",
+    "selection_rule": "Chapters 2 and 3 main text. Keep the 47 pages accepted in page_review.csv and exclude 14 flagged pages. Source review and extraction limitations are documented in artifacts/prepared/source_review_report.json.",
+    "normalization_for_count": "Unicode NFC; normalize line endings and horizontal whitespace; retain line breaks, headers and footers. No table or image recovery.",
+    "metadata_filter": {
+      "field": "chapter",
+      "type": "integer",
+      "values": [
+        2,
+        3
+      ]
+    },
+    "pages": [
+      {
+        "page_id": "foundations-is:pdf:51",
+        "page": 51,
+        "printed_page": 41,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 1881,
+        "character_count": 1860,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:52",
+        "page": 52,
+        "printed_page": 42,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 5062,
+        "character_count": 5017,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:53",
+        "page": 53,
+        "printed_page": 43,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2225,
+        "character_count": 2203,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:54",
+        "page": 54,
+        "printed_page": 44,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 1755,
+        "character_count": 1740,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:55",
+        "page": 55,
+        "printed_page": 45,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4072,
+        "character_count": 4035,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:56",
+        "page": 56,
+        "printed_page": 46,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4419,
+        "character_count": 4381,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:57",
+        "page": 57,
+        "printed_page": 47,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3974,
+        "character_count": 3939,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:58",
+        "page": 58,
+        "printed_page": 48,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3402,
+        "character_count": 3373,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:59",
+        "page": 59,
+        "printed_page": 49,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3874,
+        "character_count": 3844,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:60",
+        "page": 60,
+        "printed_page": 50,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4325,
+        "character_count": 4288,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:61",
+        "page": 61,
+        "printed_page": 51,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4146,
+        "character_count": 4111,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:62",
+        "page": 62,
+        "printed_page": 52,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3145,
+        "character_count": 3123,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:63",
+        "page": 63,
+        "printed_page": 53,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2920,
+        "character_count": 2893,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:64",
+        "page": 64,
+        "printed_page": 54,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2491,
+        "character_count": 2338,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:65",
+        "page": 65,
+        "printed_page": 55,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2802,
+        "character_count": 2717,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:66",
+        "page": 66,
+        "printed_page": 56,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4780,
+        "character_count": 4741,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:67",
+        "page": 67,
+        "printed_page": 57,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4601,
+        "character_count": 4559,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:68",
+        "page": 68,
+        "printed_page": 58,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3994,
+        "character_count": 3959,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:69",
+        "page": 69,
+        "printed_page": 59,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4855,
+        "character_count": 4811,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:70",
+        "page": 70,
+        "printed_page": 60,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3917,
+        "character_count": 3882,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:71",
+        "page": 71,
+        "printed_page": 61,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4207,
+        "character_count": 4172,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:72",
+        "page": 72,
+        "printed_page": 62,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2522,
+        "character_count": 2500,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:73",
+        "page": 73,
+        "printed_page": 63,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2195,
+        "character_count": 2174,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:74",
+        "page": 74,
+        "printed_page": 64,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 1836,
+        "character_count": 1798,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:75",
+        "page": 75,
+        "printed_page": 65,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3682,
+        "character_count": 3631,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:76",
+        "page": 76,
+        "printed_page": 66,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4995,
+        "character_count": 4952,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:77",
+        "page": 77,
+        "printed_page": 67,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3946,
+        "character_count": 3910,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:78",
+        "page": 78,
+        "printed_page": 68,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4173,
+        "character_count": 4139,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:79",
+        "page": 79,
+        "printed_page": 69,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4261,
+        "character_count": 4223,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:80",
+        "page": 80,
+        "printed_page": 70,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 3348,
+        "character_count": 3318,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:81",
+        "page": 81,
+        "printed_page": 71,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 4784,
+        "character_count": 4739,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:82",
+        "page": 82,
+        "printed_page": 72,
+        "chapter": 2,
+        "chapter_title": "Data Management and Information Systems Business Strategies",
+        "raw_character_count": 2705,
+        "character_count": 2678,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:91",
+        "page": 91,
+        "printed_page": 81,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1929,
+        "character_count": 1909,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:92",
+        "page": 92,
+        "printed_page": 82,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4021,
+        "character_count": 3984,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:93",
+        "page": 93,
+        "printed_page": 83,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2992,
+        "character_count": 2950,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:94",
+        "page": 94,
+        "printed_page": 84,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3765,
+        "character_count": 3738,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:95",
+        "page": 95,
+        "printed_page": 85,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4503,
+        "character_count": 4464,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:96",
+        "page": 96,
+        "printed_page": 86,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2922,
+        "character_count": 2897,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:97",
+        "page": 97,
+        "printed_page": 87,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1662,
+        "character_count": 1627,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:98",
+        "page": 98,
+        "printed_page": 88,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1659,
+        "character_count": 1627,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:99",
+        "page": 99,
+        "printed_page": 89,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4620,
+        "character_count": 4578,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:100",
+        "page": 100,
+        "printed_page": 90,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4403,
+        "character_count": 4365,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:101",
+        "page": 101,
+        "printed_page": 91,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1363,
+        "character_count": 1331,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:102",
+        "page": 102,
+        "printed_page": 92,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 858,
+        "character_count": 827,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:103",
+        "page": 103,
+        "printed_page": 93,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1987,
+        "character_count": 1959,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:104",
+        "page": 104,
+        "printed_page": 94,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2679,
+        "character_count": 2569,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:105",
+        "page": 105,
+        "printed_page": 95,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4105,
+        "character_count": 4065,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:106",
+        "page": 106,
+        "printed_page": 96,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3261,
+        "character_count": 3239,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:107",
+        "page": 107,
+        "printed_page": 97,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3096,
+        "character_count": 3023,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:108",
+        "page": 108,
+        "printed_page": 98,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4916,
+        "character_count": 4869,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:109",
+        "page": 109,
+        "printed_page": 99,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 4553,
+        "character_count": 4513,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:110",
+        "page": 110,
+        "printed_page": 100,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2754,
+        "character_count": 2730,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:111",
+        "page": 111,
+        "printed_page": 101,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2822,
+        "character_count": 2804,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:112",
+        "page": 112,
+        "printed_page": 102,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1446,
+        "character_count": 1402,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:113",
+        "page": 113,
+        "printed_page": 103,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 1785,
+        "character_count": 1747,
+        "review_status": "excluded",
+        "flags": [
+          "check_table_or_code_against_pdf"
+        ],
+        "selection": "excluded"
+      },
+      {
+        "page_id": "foundations-is:pdf:114",
+        "page": 114,
+        "printed_page": 104,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3973,
+        "character_count": 3942,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:115",
+        "page": 115,
+        "printed_page": 105,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2803,
+        "character_count": 2779,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:116",
+        "page": 116,
+        "printed_page": 106,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3558,
+        "character_count": 3526,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:117",
+        "page": 117,
+        "printed_page": 107,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3399,
+        "character_count": 3368,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:118",
+        "page": 118,
+        "printed_page": 108,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 3751,
+        "character_count": 3719,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      },
+      {
+        "page_id": "foundations-is:pdf:119",
+        "page": 119,
+        "printed_page": 109,
+        "chapter": 3,
+        "chapter_title": "Database Management Systems",
+        "raw_character_count": 2002,
+        "character_count": 1987,
+        "review_status": "accepted",
+        "flags": [],
+        "selection": "included"
+      }
+    ],
+    "experiment_snapshot": "results/20261114T132647004212Z/plan.json"
+  },
+  "test_policy": "New Day 7 test; Day 6 dev reused, Day 6 test retired.",
+  "scope": "Selected Day 6 chapters 2/3 only; text extraction, no multimodal bonus claimed."
+}

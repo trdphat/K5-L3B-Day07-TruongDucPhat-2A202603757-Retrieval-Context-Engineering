@@ -1,0 +1,79 @@
+{
+  "retrieval": {
+    "hit_at_1": {
+      "n": 11,
+      "N": 15,
+      "rate": 0.7333333333333333
+    },
+    "hit_at_3": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8666666666666667
+    },
+    "context_evidence_rate": {
+      "n": 14,
+      "N": 15,
+      "rate": 0.9333333333333333
+    }
+  },
+  "cases": 17,
+  "errors": 0,
+  "ranking_errors": 0,
+  "total_seconds": 39.65579250000883,
+  "search_counts": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3
+  ],
+  "prompt_tokens": 18578,
+  "completion_tokens": 2056,
+  "agent_embedding_tokens": 0,
+  "ranking_embedding_tokens": 0,
+  "cost_usd": null,
+  "cost_note": "Token counts, not a monetary estimate; embedding cache reused across runs.",
+  "agent": {
+    "cases": 17,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 17,
+      "N": 17
+    },
+    "grounded_answer": {
+      "0": 1,
+      "1": 0,
+      "2": 14,
+      "N": 15,
+      "mean": 1.8666666666666667
+    },
+    "citation_validity": {
+      "n": 16,
+      "N": 16
+    },
+    "answer_citation_coverage": {
+      "n": 14,
+      "N": 14
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 15
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "baseline": "tfidf",
+  "baseline_reason": "The supplied Day 7 starter uses TF-IDF; run the same real agent over it.",
+  "selection_order": [
+    "Highest independently reviewed grounded-answer mean on dev",
+    "Highest correct abstention rate on dev",
+    "Highest final context evidence rate on dev",
+    "Lowest prompt plus completion token usage on dev"
+  ],
+  "experiments": {
+    "dense": "Semantic retrieval using original Day 6 vectors",
+    "hybrid": "Improvement hypothesis 1: RRF fusion improves evidence coverage over lexical baseline",
+    "hybrid_wide": "Improvement hypothesis 2: more candidates in final context recover missing conditions"
+  },
+  "test_policy": "Freeze selected configuration and hashes before evaluating new Day 7 test. Do not tune from test.",
+  "review_policy": "Codex performs a separate evidence audit; this is AI-assisted review, not a claim of human annotation. Student should verify labels."
+}

@@ -1,0 +1,63 @@
+{
+  "name": "hybrid_wide",
+  "config": {
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 10000,
+    "max_searches": 3
+  },
+  "baseline": "tfidf",
+  "selection_policy": {
+    "baseline": "tfidf",
+    "baseline_reason": "The supplied Day 7 starter uses TF-IDF; run the same real agent over it.",
+    "selection_order": [
+      "Highest independently reviewed grounded-answer mean on dev",
+      "Highest correct abstention rate on dev",
+      "Highest final context evidence rate on dev",
+      "Lowest prompt plus completion token usage on dev"
+    ],
+    "experiments": {
+      "dense": "Semantic retrieval using original Day 6 vectors",
+      "hybrid": "Improvement hypothesis 1: RRF fusion improves evidence coverage over lexical baseline",
+      "hybrid_wide": "Improvement hypothesis 2: more candidates in final context recover missing conditions"
+    },
+    "test_policy": "Freeze selected configuration and hashes before evaluating new Day 7 test. Do not tune from test.",
+    "review_policy": "Codex performs a separate evidence audit; this is AI-assisted review, not a claim of human annotation. Student should verify labels."
+  },
+  "dev_scores": [
+    [
+      1.9333333333333333,
+      1.0,
+      1.0,
+      -19473,
+      "dense"
+    ],
+    [
+      1.8666666666666667,
+      1.0,
+      0.9333333333333333,
+      -20634,
+      "tfidf"
+    ],
+    [
+      1.8666666666666667,
+      1.0,
+      0.9333333333333333,
+      -20379,
+      "hybrid"
+    ],
+    [
+      2.0,
+      1.0,
+      1.0,
+      -22920,
+      "hybrid_wide"
+    ]
+  ],
+  "frozen_at_utc": "2026-11-16T03:54:20Z",
+  "corpus_sha256": "1bc371088d784db2f3a190861de637a6bd8d680df8d517b34c97e3b2583a4ff1",
+  "benchmark_sha256": "35c438d189eb3deb2db309d7addc541951f79848425fd4a7df03044c43963902",
+  "prompt_tools_sha256": "ae75125aca87690fc90c076c755595344e2d11afd58b75b44203564f928cd697",
+  "model": "gpt-4.1-mini",
+  "source_sha256": "286a941716207ce0bd3a5d4c8287a38c8d7e6bcaeb0c954075d27d4fa1d9e5e1"
+}

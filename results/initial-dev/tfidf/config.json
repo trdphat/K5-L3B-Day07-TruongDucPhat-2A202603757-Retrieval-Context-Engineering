@@ -1,0 +1,11 @@
+{
+  "method": "tfidf",
+  "top_k": 3,
+  "budget": 6000,
+  "max_searches": 3,
+  "candidate_pool": 20,
+  "rrf_constant": 60,
+  "filter_policy": "No filters for any method; identical corpus.",
+  "corpus_sha256": "1bc371088d784db2f3a190861de637a6bd8d680df8d517b34c97e3b2583a4ff1",
+  "benchmark_sha256": "547cf758ded761b25c97a6dc9f1701595d7d2cf07fafe7bf6b33cd28c5ecacd5"
+}

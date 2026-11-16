@@ -1,0 +1,565 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      53,
+      105,
+      116
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 53/105 xác nhận accurate, complete và consistent.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "6348dca9cfec03cd898f7f6d8c5dfcdf8e28ad8cc00b97678784abf59826ed19",
+    "citation_pages": [
+      105,
+      53
+    ],
+    "citation_review": [
+      {
+        "citation_id": "34bb26dee7b469a47158832c6662fdfd9503a3242cfd6296ed4f25018f0233cb",
+        "pdf_page": 105,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      },
+      {
+        "citation_id": "ca033d1f30f49c3a173b0e07c798ce272f20b18057c283475691e5c3a723f8c2",
+        "pdf_page": 53,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      54,
+      110
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 54 xác nhận federated analytics, không cần chuyển dữ liệu về kho trung tâm và lợi ích bảo mật/phân tích phân tán.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "83e52b65af8c327ac645fc48aa992959047bfd0ec2845bc533b2e5fb511c756a",
+    "citation_pages": [
+      54
+    ],
+    "citation_review": [
+      {
+        "citation_id": "a9335556d96a597d50d6bd72fa85a1ed00f4fbb58785793802c81689d971beab",
+        "pdf_page": 54,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      95,
+      99,
+      105
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 95 xác nhận durability giữ giao dịch đã hoàn tất sau sự cố.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "87bbdc0caaf45ccbc3462094e660b05c3e737f3dc585af5b994766414d471a16",
+    "citation_pages": [
+      95
+    ],
+    "citation_review": [
+      {
+        "citation_id": "0794aacd649ebaab221778bf99687744b94baf910d96b143e24105c8aa1c1a15",
+        "pdf_page": 95,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      52,
+      53
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 53 xác nhận thời gian lưu theo yêu cầu pháp lý/quy định/nghiệp vụ và archiving, purging, retention policies.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "44694f0c300d2ca5adb73d2666629f3988e1548ee4a1d773cae25487b7ffe921",
+    "citation_pages": [
+      53
+    ],
+    "citation_review": [
+      {
+        "citation_id": "cf167c9d257a0de56e4c8e2745bca49f09a0c837cef7dfeb43f053704531cdf2",
+        "pdf_page": 53,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      55,
+      57
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 55 xác nhận khác biệt technical/business và mô tả maturity; các citation trang 55 hỗ trợ các phần tương ứng.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "3c0a174003bc49c801f2176d4e9f7be5729bbc2c40a81c13d64aeedf91e76f54",
+    "citation_pages": [
+      55,
+      55
+    ],
+    "citation_review": [
+      {
+        "citation_id": "e21ff424865c0aa2493f4410df7727902777d03a990e65110633392c8115c87f",
+        "pdf_page": 55,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      },
+      {
+        "citation_id": "24a208478a9ddd0fb53e9d877148f3f752e5e1c8a34745cba809a0779669f0b4",
+        "pdf_page": 55,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      56,
+      105
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 56 xác nhận veracity là reliability, accuracy và trustworthiness.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "8286f5245a75babd2562fdddc700dfcb3ec6c5b1bdac86f3746b154144688659",
+    "citation_pages": [
+      56
+    ],
+    "citation_review": [
+      {
+        "citation_id": "705a78d82cdf767eb58812671efb1b327e88ba606ef765f22c1fa6f4ef47c067",
+        "pdf_page": 56,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      58,
+      60,
+      82
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 58 xác nhận hạ tầng storage, processing, analysis và governance.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "e8112e459ede2397342d447018f6db38092e039af666b6702cbadb53798a9d09",
+    "citation_pages": [
+      58
+    ],
+    "citation_review": [
+      {
+        "citation_id": "2e57e7e02a66158ddbdd6875447f3dcf9bae394dab857e800b0441587adc9a01",
+        "pdf_page": 58,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      59,
+      60
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 59 xác nhận nonprogrammed decisions, tính độc đáo/phức tạp, thiếu guideline và cần judgment, analysis, creativity.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "ce9a8ae04543794a1e17bc35baa87f0f7adc406901fe1d7faffcf910a2a0626e",
+    "citation_pages": [
+      59
+    ],
+    "citation_review": [
+      {
+        "citation_id": "db651404628f5fda2dceb64d390af374cbab24af85bf2b6b39c6ee3a3760d235",
+        "pdf_page": 59,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      true,
+      true,
+      false
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      68,
+      69
+    ],
+    "answer_grade": 1,
+    "context_grade": 2,
+    "reason": "PDF trang 68 xác nhận e-commerce là mua/bán online, nền tảng an toàn, thanh toán, logistics và marketing cá nhân hóa. Phần bổ sung search/filtering/customer support dùng đoạn marketplace ở trang 69. Giữ answer 1 và citation thứ ba false; context vẫn đủ định nghĩa e-commerce nên context 2.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "74e7545eca581b82ab97cb7a04decd039de6f48950094b96fd6ccb2233e5cc68",
+    "citation_pages": [
+      68,
+      68,
+      69
+    ],
+    "citation_review": [
+      {
+        "citation_id": "eee560834224367290047cfe231861fbbc23a67f330a2629dc10ad2f181eee22",
+        "pdf_page": 68,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      },
+      {
+        "citation_id": "14dc65cf8cc03dd6a42e8ad692d0a9e4b72be27a115f364da00936892b540d5a",
+        "pdf_page": 68,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      },
+      {
+        "citation_id": "3599fe1750c63fc7e312ec53d3707d545d0bf69f5a5947cf117c77ab8eebafaf",
+        "pdf_page": 69,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": false,
+        "reason": "Trang 69 đặt đoạn này dưới marketplace model; không chứng minh phần bổ sung đang được gán cho e-commerce."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      92,
+      115,
+      117
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 92 xác nhận mobile database và yêu cầu tiết kiệm storage/power, phù hợp tài nguyên hạn chế.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "f49a2db200fd46585e62f41e2c925ae93e32ac9870cee3846a8fbfe010708632",
+    "citation_pages": [
+      92
+    ],
+    "citation_review": [
+      {
+        "citation_id": "17144faff554affc0392fec9730d9f20a7924181ce2928ac4eba5e74c396126b",
+        "pdf_page": 92,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      99,
+      108
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 99 xác nhận check constraint giới hạn giá trị cột, bao gồm tuổi dương và các trạng thái cho trước.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "4d193a6a161d36c321b97405c8509d90899859dcbc754319227259f4c4421bd0",
+    "citation_pages": [
+      99
+    ],
+    "citation_review": [
+      {
+        "citation_id": "afbdd120f626f3fa03d4016335a35ffb6d43013725f046930e902165b59afcfc",
+        "pdf_page": 99,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      105,
+      106
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 105 xác nhận least privilege chỉ cấp quyền tối thiểu cần cho tác vụ.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "bbc432f74c94020965b4d2355a615e1266c660cbb8d20f66349787ac62bbc76b",
+    "citation_pages": [
+      105
+    ],
+    "citation_review": [
+      {
+        "citation_id": "fd6718d7ec38a32620327d515b0eb496a573001df559fe5492c29cb79627421b",
+        "pdf_page": 105,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      105,
+      106
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 106 xác nhận parameterized queries xử lý input như dữ liệu thay vì code.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "3738274ab9c1a6dd9857d2c3af741aa5c29cf2f5495114c0b07db84a034f262c",
+    "citation_pages": [
+      106
+    ],
+    "citation_review": [
+      {
+        "citation_id": "b28d3459d85b6b96f6424ecfa48feb51efb4c033995fe99e97a95b5fcf8c629a",
+        "pdf_page": 106,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      108
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 108 xác nhận JSON/BSON/XML, schema linh hoạt, nested documents và arrays.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "aa474ec942cb2462507362e492e3ba8ac19e00b775113878c768e2f6b73185ab",
+    "citation_pages": [
+      108
+    ],
+    "citation_review": [
+      {
+        "citation_id": "013c23f10cbb747988c405d634be8af112f36d095cf1f9d65742113a9206ce78",
+        "pdf_page": 108,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      92,
+      115,
+      116
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 115 nêu rõ SQLite là ví dụ hệ quản trị nhúng nhẹ lưu dữ liệu local cho mobile.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "53c00ae0850e7d60cd35dd5a0379f708bac73fb570eba19a513a8922a6ecef6f",
+    "citation_pages": [
+      115
+    ],
+    "citation_review": [
+      {
+        "citation_id": "3d12ed1f471c379081d63c42c3f33ecda64a13cf90463311815cb0086e01661a",
+        "pdf_page": 115,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "dev-absent-1",
+    "citation_support": [],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      52,
+      114,
+      118,
+      119
+    ],
+    "abstention_correct": true,
+    "reason": "Đã đối chiếu phạm vi toàn bộ 47 trang được index và các đoạn có password/outage: không có giá hosting/thời lượng sự cố OpenStax 2026, credential thực hay ID triển khai được hỏi. Answer từ chối rõ, không đưa giá trị suy đoán. Chỉ kết luận trong corpus đã index.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "94fafa2b5b1707fa666e7255b3aced61a9e8f075d7bbb429ad62ddef793fa84f",
+    "citation_pages": [],
+    "citation_review": [],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "dev-absent-2",
+    "citation_support": [],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      99,
+      105,
+      106
+    ],
+    "abstention_correct": true,
+    "reason": "Đã đối chiếu phạm vi toàn bộ 47 trang được index và các đoạn có password/outage: không có giá hosting/thời lượng sự cố OpenStax 2026, credential thực hay ID triển khai được hỏi. Answer từ chối rõ, không đưa giá trị suy đoán. Chỉ kết luận trong corpus đã index.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "ae59011729292b33bafd5ef9dd362d194076970407f6667f972922740d5ab285",
+    "citation_pages": [],
+    "citation_review": [],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  }
+]

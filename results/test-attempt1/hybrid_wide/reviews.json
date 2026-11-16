@@ -1,0 +1,223 @@
+[
+  {
+    "query_id": "test-new-01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      56,
+      78,
+      95,
+      96,
+      110
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 95 xác nhận data warehouse tích hợp nhiều nguồn, tối ưu analysis/reporting thay vì transaction processing.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "380d5c64070dda3efa3a5151f28976becdc6275bfc4f807aa44b5935ecd866c9",
+    "citation_pages": [
+      95
+    ],
+    "citation_review": [
+      {
+        "citation_id": "3fb6dbe532b6668b61a316ab0ad6616074c3e5a7eb034e0e30733fdd8e84a611",
+        "pdf_page": 95,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "test-new-02",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      96,
+      100
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 96 xác nhận bitmap index dùng 0/1 cho cột ít giá trị phân biệt; các ví dụ trong answer khớp.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "0204bec922e8a1b50e3c7bc748581a69434349f5772b0033b21fbcfb567f98f2",
+    "citation_pages": [
+      96
+    ],
+    "citation_review": [
+      {
+        "citation_id": "5934c0ce7088a5a5c635d545274bb0575bc45240781f3ac422e1023d90cd794f",
+        "pdf_page": 96,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "test-new-03",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      99,
+      100,
+      108
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 99 xác nhận referential constraint, quan hệ foreign/primary key và ngăn orphaned records.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "b07b61b6a51fabaaa1b2db4121bc2b1ebe4377db2f9aa421ed63bd492deba0e1",
+    "citation_pages": [
+      99
+    ],
+    "citation_review": [
+      {
+        "citation_id": "4d3d6afb722a0e6480b285c31cebece69247953551665ee3e2baba268376ad66",
+        "pdf_page": 99,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "test-new-04",
+    "citation_support": [
+      false
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      99,
+      100,
+      110
+    ],
+    "answer_grade": 1,
+    "context_grade": 2,
+    "reason": "PDF trang 100 xác nhận giá trị atomic/indivisible, single/simple và ví dụ mỗi số điện thoại có một hàng riêng. Answer thêm \"or column\" không được ví dụ chứng minh: giữ answer 1, context 2 và citation false.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "1280fed0afa5b0dc40ff1c3be7e2a4f98765b203594b18f470eb0aab2411870a",
+    "citation_pages": [
+      100
+    ],
+    "citation_review": [
+      {
+        "citation_id": "15eb8a4578ffb0301807d5b09c34869d07a503bba1126de15effd290c7f58b39",
+        "pdf_page": 100,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": false,
+        "reason": "Nguồn trang 100 nói mỗi số điện thoại có hàng riêng; không chứng minh lựa chọn thêm \"or column\" trong ví dụ này."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "test-new-05",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      95,
+      99,
+      100,
+      109
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "PDF trang 100 và 109 xác nhận physical design chọn data types, indexing và storage, triển khai trên DBMS.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "f9cefd07a66701d75ce0305d15998fe6a518e60ce9513b2aefcaee55ef7c3a03",
+    "citation_pages": [
+      109,
+      100
+    ],
+    "citation_review": [
+      {
+        "citation_id": "10c64fa502f2de2cc76a8f4c4b4fc1cee844083201ad5d5440442625160e23dd",
+        "pdf_page": 109,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      },
+      {
+        "citation_id": "2fdf8e51d59c048c428c14dea8ad93b9050e85616f1a0a79406d20d392152b24",
+        "pdf_page": 100,
+        "in_context": true,
+        "text_matches_original_pdf": true,
+        "supported": true,
+        "reason": "Nguồn hỗ trợ ít nhất một khẳng định liên quan trong answer; đã kiểm tra đúng phạm vi và điều kiện."
+      }
+    ],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "test-absent-3",
+    "citation_support": [],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      52,
+      94,
+      96,
+      116,
+      118
+    ],
+    "abstention_correct": true,
+    "reason": "Đã đối chiếu phạm vi toàn bộ 47 trang được index và các đoạn có password/outage: không có giá hosting/thời lượng sự cố OpenStax 2026, credential thực hay ID triển khai được hỏi. Answer từ chối rõ, không đưa giá trị suy đoán. Chỉ kết luận trong corpus đã index.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "971ceb8f91af73b7bc81dacdc1cc12d33ea8ca322850b606f4eea729443f9617",
+    "citation_pages": [],
+    "citation_review": [],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  },
+  {
+    "query_id": "test-absent-4",
+    "citation_support": [],
+    "reviewer": "Codex (AI source and trace audit)",
+    "human_verified": false,
+    "evidence_pages": [
+      52,
+      61,
+      66,
+      68,
+      96,
+      111,
+      118
+    ],
+    "abstention_correct": true,
+    "reason": "Đã đối chiếu phạm vi toàn bộ 47 trang được index và các đoạn có password/outage: không có giá hosting/thời lượng sự cố OpenStax 2026, credential thực hay ID triển khai được hỏi. Answer từ chối rõ, không đưa giá trị suy đoán. Chỉ kết luận trong corpus đã index.",
+    "ai_reviewed": true,
+    "source_pdf_sha256": "496dd5f206da66e0334514df9c22a22fa58267851c349619f35c2d3aeba69306",
+    "reviewed_trace_sha256": "49072a3fd839d770306def3f0c94dd5270d83ab07f617080275c3cf5df963e21",
+    "citation_pages": [],
+    "citation_review": [],
+    "review_method": "Đọc từng answer/context/citation, đối chiếu text với PDF gốc; xem render các trang 53,55,68,69,95,100,116 để kiểm tra phạm vi/ngữ cảnh."
+  }
+]
